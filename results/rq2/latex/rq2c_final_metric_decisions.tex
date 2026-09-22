@@ -1,0 +1,16 @@
+\begin{table}[tbp]
+\caption{RQ2-C final model decision by metric.}
+\label{tab:rq2c-final-metric-decisions}
+\begin{tabular}{llrrrrll}
+\toprule
+metric & direction & n\_complete\_configurations & friedman\_chi2 & friedman\_holm\_p & kendalls\_w & unique\_winner & decision\_reason \\
+\midrule
+msp & higher positive correctness correlation is better & 655 & 534.745 & 2.28408e-116 & 0.408202 & qwen & Significantly better than both alternatives \\
+pcs & higher positive correctness correlation is better & 655 & 524.198 & 2.97015e-114 & 0.400152 & qwen & Significantly better than both alternatives \\
+deep\_gini & more negative correctness correlation is better & 655 & 557.096 & 4.26738e-121 & 0.425264 & qwen & Significantly better than both alternatives \\
+entropy & more negative correctness correlation is better & 655 & 573.081 & 1.80314e-124 & 0.437466 & qwen & Significantly better than both alternatives \\
+ece & lower calibration error is better & 800 & 816.077 & 3.70829e-177 & 0.510048 & qwen & Significantly better than both alternatives \\
+mce & lower calibration error is better & 800 & 231.49 & 5.40238e-51 & 0.144681 & qwen & Significantly better than both alternatives \\
+\bottomrule
+\end{tabular}
+\end{table}

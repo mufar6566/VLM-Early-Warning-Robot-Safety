@@ -1,0 +1,6 @@
+allowed_interval_s,maximum_actionable,total_events,maximum_actionable_rate,highest_result,winning_configurations,number_of_ties
+1,9,86,0.10465116279069768,9/86 (10.47%),InternVL AppFr H02,1
+2,11,86,0.12790697674418605,11/86 (12.79%),InternVL AppFr H02; InternVL AppFr H32; Qwen AppOd H02; Qwen AppOd H04; Qwen AppOd H10,5
+3,15,86,0.1744186046511628,15/86 (17.44%),Qwen AppOd H02,1
+4,16,86,0.18604651162790697,16/86 (18.60%),InternVL AppFr H02; InternVL AppFr H06; InternVL AppFr H08; InternVL AppFr H10; InternVL AppFr H12; InternVL AppFr H18; InternVL AppFr H20; InternVL AppFr H22; InternVL AppOd H06; InternVL AppOd H10; LLaVA AppOd H02; Qwen AppOd H02,12
+5,19,86,0.22093023255813954,19/86 (22.09%),InternVL AppFr H02,1

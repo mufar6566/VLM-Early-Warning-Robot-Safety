@@ -1,0 +1,5 @@
+table,rows,columns,csv_file
+rq3_macro_f1_friedman,6,10,results/rq3/rq3_macro_f1_friedman.csv
+rq3_macro_f1_pairwise_wilcoxon,240,15,results/rq3/rq3_macro_f1_pairwise_wilcoxon.csv
+rq3_macro_f1_pairwise_holm_significant,53,15,results/rq3/rq3_macro_f1_pairwise_holm_significant.csv
+rq3_macro_f1_final_summary,6,11,results/rq3/rq3_macro_f1_final_summary.csv

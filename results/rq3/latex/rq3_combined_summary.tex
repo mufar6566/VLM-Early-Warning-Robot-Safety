@@ -1,0 +1,22 @@
+\begin{table}[tbp]
+\caption{Combined Accuracy and Macro-F1 publication summary.}
+\label{tab:rq3-combined-summary}
+\begin{tabular}{lllrrrlrllllll}
+\toprule
+Metric & Model & Approach & Bags & Histories & Friedman chi2 & Holm p-value & Kendall's W & Significant pairs & Strict winner & First better & Second better & Third better & All significant winning histories \\
+\midrule
+Accuracy & Qwen & AppFr & 25 & 16 & 46.832 & <0.001 & 0.125 & 0/120 & — & — & — & — & — \\
+Accuracy & Qwen & AppOd & 25 & 16 & 105.041 & <0.001 & 0.28 & 14/120 & — & H32 (4) & H30 (3) & H26, H28 (2 each) & H32 (4); H30 (3); H26, H28 (2 each); H06, H14, H24 (1 each) \\
+Accuracy & InternVL & AppFr & 25 & 16 & 117.504 & <0.001 & 0.313 & 53/120 & — & H02, H14, H16 (12 each) & H04 (11) & H06 (3) & H02, H14, H16 (12 each); H04 (11); H06 (3); H08 (2); H28 (1) \\
+Accuracy & InternVL & AppOd & 25 & 16 & 78.461 & <0.001 & 0.209 & 26/120 & — & H14 (5) & H02, H22 (4 each) & H30 (3) & H14 (5); H02, H22 (4 each); H30 (3); H04, H16, H24 (2 each); H10, H12, H18, H20 (1 each) \\
+Accuracy & LLaVA & AppFr & 25 & 16 & 67.202 & <0.001 & 0.179 & 4/120 & — & H18, H20 (2 each) & — & — & H18, H20 (2 each) \\
+Accuracy & LLaVA & AppOd & 25 & 16 & 49.213 & <0.001 & 0.131 & 1/120 & — & H16 (1) & — & — & H16 (1) \\
+Macro-F1 & Qwen & AppFr & 25 & 16 & 22.123 & 0.418 & 0.059 & Not performed & — & — & — & — & — \\
+Macro-F1 & Qwen & AppOd & 25 & 16 & 19.353 & 0.595 & 0.052 & Not performed & — & — & — & — & — \\
+Macro-F1 & InternVL & AppFr & 25 & 16 & 143.629 & <0.001 & 0.383 & 33/120 & — & H02 (12) & H14 (7) & H06 (5) & H02 (12); H14 (7); H06 (5); H04 (4); H16 (3); H08 (2) \\
+Macro-F1 & InternVL & AppOd & 25 & 16 & 82.977 & <0.001 & 0.221 & 20/120 & — & H02, H04, H14, H16, H18, H20, H22, H24, H30 (2 each) & H10, H12 (1 each) & — & H02, H04, H14, H16, H18, H20, H22, H24, H30 (2 each); H10, H12 (1 each) \\
+Macro-F1 & LLaVA & AppFr & 25 & 16 & 17.044 & 0.625 & 0.045 & Not performed & — & — & — & — & — \\
+Macro-F1 & LLaVA & AppOd & 25 & 16 & 17.108 & 0.625 & 0.046 & Not performed & — & — & — & — & — \\
+\bottomrule
+\end{tabular}
+\end{table}

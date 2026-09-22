@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Environments
+venv/
+.venv/
+env/
+miniconda*/
+anaconda*/
+
+# Model/cache data
+.cache/
+huggingface/
+hf_cache/
+local_models/
+
+# Generated combined dataset
+analysis/combined/clean/
+analysis/combined/merge_summary.csv
+
+# Execution logs
+results/*_execution.log
+
+# Raw datasets / archives
+*.bag
+*.db3
+*.mcap
+*.tar
+*.tar.gz
+*.zip
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Local execution/setup files
+*.log
+*.out
+*.err
+docs/environment/

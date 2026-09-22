@@ -1,0 +1,7 @@
+metric,direction,n_complete_configurations,friedman_chi2,friedman_holm_p,kendalls_w,unique_winner,decision_reason
+msp,higher positive correctness correlation is better,655,534.7450381679391,2.2840815407444907e-116,0.40820231921216726,qwen,Significantly better than both alternatives
+pcs,higher positive correctness correlation is better,655,524.1984732824421,2.9701460914939705e-114,0.4001515063224749,qwen,Significantly better than both alternatives
+deep_gini,more negative correctness correlation is better,655,557.0961832061075,4.267375538723129e-121,0.42526426198939504,qwen,Significantly better than both alternatives
+entropy,more negative correctness correlation is better,655,573.0809160305344,1.8031433157215268e-124,0.4374663481149117,qwen,Significantly better than both alternatives
+ece,lower calibration error is better,800,816.0774999999994,3.7082902790553347e-177,0.5100484374999996,qwen,Significantly better than both alternatives
+mce,lower calibration error is better,800,231.48999999999978,5.402380785955246e-51,0.14468124999999987,qwen,Significantly better than both alternatives

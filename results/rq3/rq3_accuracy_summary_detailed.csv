@@ -1,0 +1,7 @@
+metric,model,approach,bags,histories,friedman_chi2,raw_p,holm_p,holm_p_report,kendalls_w,omnibus_significant_holm,pairwise_tests_performed,significant_pairwise_tests,significant_pairs,histories_with_significant_wins,strict_significant_winner,first_better,second_better,third_better,all_significant_winning_histories
+accuracy,qwen,appfr,25,16,46.831689349481955,3.917591313096919e-05,3.917591313096919e-05,<0.001,0.12488450493195188,True,120,0,0/120,0,—,—,—,—,—
+accuracy,qwen,appod,25,16,105.04087193460485,1.434741361886001e-15,7.173706809430005e-15,<0.001,0.28010899182561294,True,120,14,14/120,7,—,H32 (4),H30 (3),"H26, H28 (2 each)","H32 (4); H30 (3); H26, H28 (2 each); H06, H14, H24 (1 each)"
+accuracy,internvl,appfr,25,16,117.5035617148038,5.765785699245354e-18,3.4594714195472126e-17,<0.001,0.31334283123947676,True,120,53,53/120,7,—,"H02, H14, H16 (12 each)",H04 (11),H06 (3),"H02, H14, H16 (12 each); H04 (11); H06 (3); H08 (2); H28 (1)"
+accuracy,internvl,appod,25,16,78.46072186836517,1.3338255595376403e-10,5.335302238150561e-10,<0.001,0.20922859164897378,True,120,26,26/120,11,—,H14 (5),"H02, H22 (4 each)",H30 (3),"H14 (5); H02, H22 (4 each); H30 (3); H04, H16, H24 (2 each); H10, H12, H18, H20 (1 each)"
+accuracy,llava,appfr,25,16,67.20237042278444,1.400252991479875e-08,4.200758974439625e-08,<0.001,0.17920632112742518,True,120,4,4/120,2,—,"H18, H20 (2 each)",—,—,"H18, H20 (2 each)"
+accuracy,llava,appod,25,16,49.21332388377036,1.6176357963207252e-05,3.2352715926414504e-05,<0.001,0.13123553035672095,True,120,1,1/120,1,—,H16 (1),—,—,H16 (1)

@@ -1,0 +1,7 @@
+model,approach,friedman_holm_p,friedman_significant_holm,pairwise_tests_performed,holm_significant_pairwise_tests
+qwen,appfr,3.917591313096919e-05,True,120,0
+qwen,appod,7.173706809430005e-15,True,120,14
+internvl,appfr,3.4594714195472126e-17,True,120,53
+internvl,appod,5.335302238150561e-10,True,120,26
+llava,appfr,4.200758974439625e-08,True,120,4
+llava,appod,3.2352715926414504e-05,True,120,1

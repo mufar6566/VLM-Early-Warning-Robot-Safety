@@ -1,0 +1,13 @@
+Approach,Metric,H02,H04,H06,H08,H10,H12,H14,H16,H18,H20,H22,H24,H26,H28,H30,H32
+AppFr,MSP r,Q,Q,Q,Q,—,—,Q,Q,—,—,—,—,—,—,—,—
+AppFr,PCS r,Q,Q,Q,Q,—,Q,Q,Q,—,—,—,—,—,—,—,—
+AppFr,Deep Gini r,Q,Q,Q,Q,—,Q,Q,Q,—,—,—,—,—,—,—,—
+AppFr,Entropy r,Q,Q,Q,—,—,—,—,—,—,—,—,—,—,—,—,—
+AppFr,ECE,—,—,Q,Q,Q,Q,—,Q,Q,Q,Q,Q,Q,Q,Q,Q
+AppFr,MCE,—,—,—,—,—,—,—,—,—,—,—,—,—,Q,—,—
+AppOd,MSP r,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,—,—,—,—
+AppOd,PCS r,Q,—,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,—,—,—,—
+AppOd,Deep Gini r,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,—,—,—,—
+AppOd,Entropy r,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,—,—,—,—,—
+AppOd,ECE,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+AppOd,MCE,—,—,Q,Q,Q,—,Q,—,Q,Q,Q,Q,—,—,—,—
