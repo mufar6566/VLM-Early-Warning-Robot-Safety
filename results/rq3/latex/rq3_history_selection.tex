@@ -1,0 +1,16 @@
+\begin{table}[tbp]
+\caption{Combined RQ3 observed and statistically supported history selections.}
+\label{tab:rq3-history-selection}
+\begin{tabular}{lllllllrrrrrrrrrrrrrrr}
+\toprule
+model & approach & best\_observed\_history & strict\_significant\_winner & selected\_history & selection\_evidence & selection\_basis & friedman\_holm\_p & friedman\_significant\_holm & selected\_significant\_pairwise\_wins & selected\_significant\_pairwise\_losses & average\_accuracy\_rank & median\_bag\_accuracy & pooled\_accuracy & pooled\_balanced\_accuracy & pooled\_macro\_f1 & pooled\_recall\_safe & pooled\_recall\_potentially\_unsafe & pooled\_recall\_unsafe & huron\_median\_bag\_accuracy & pal\_median\_bag\_accuracy & crowdbot\_median\_bag\_accuracy \\
+\midrule
+qwen & appfr & H28 & NONE & H28 & descriptive only & lowest average accuracy rank with prespecified tie-breakers & 3.91759e-05 & True & 0 & 0 & 6.06 & 0.891532 & 0.733702 & 0.417199 & 0.417638 & 0.907945 & 0.343651 & 0 & 0.932705 & 0.644503 & 0.554046 \\
+qwen & appod & H32 & NONE & H32 & descriptive only & lowest average accuracy rank with prespecified tie-breakers & 7.17371e-15 & True & 4 & 0 & 4.48 & 0.88392 & 0.72783 & 0.453134 & 0.448697 & 0.844535 & 0.504296 & 0.0105708 & 0.921751 & 0.660961 & 0.492155 \\
+internvl & appfr & H04 & NONE & H04 & descriptive only & lowest average accuracy rank with prespecified tie-breakers & 3.45947e-17 & True & 11 & 0 & 4.44 & 0.781441 & 0.657167 & 0.434183 & 0.410546 & 0.719755 & 0.582794 & 0 & 0.865369 & 0.473338 & 0.424419 \\
+internvl & appod & H14 & NONE & H14 & descriptive only & lowest average accuracy rank with prespecified tie-breakers & 5.3353e-10 & True & 5 & 0 & 5.24 & 0.733612 & 0.610105 & 0.428767 & 0.391694 & 0.628541 & 0.657762 & 0 & 0.787798 & 0.466096 & 0.463023 \\
+llava & appfr & H32 & NONE & H32 & descriptive only & lowest average accuracy rank with prespecified tie-breakers & 4.20076e-08 & True & 0 & 0 & 5.42 & 0.787425 & 0.668452 & 0.358026 & 0.349891 & 0.861298 & 0.212781 & 0 & 0.859574 & 0.664911 & 0.538292 \\
+llava & appod & H08 & NONE & H08 & descriptive only & lowest average accuracy rank with prespecified tie-breakers & 3.23527e-05 & True & 0 & 0 & 5.98 & 0.750916 & 0.648344 & 0.364305 & 0.357854 & 0.809049 & 0.283865 & 0 & 0.782979 & 0.644503 & 0.461708 \\
+\bottomrule
+\end{tabular}
+\end{table}

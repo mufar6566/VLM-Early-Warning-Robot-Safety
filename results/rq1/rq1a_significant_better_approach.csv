@@ -1,0 +1,19 @@
+,Qwen,Qwen,InternVL,InternVL,LLaVA,LLaVA
+,Accuracy,Macro-F1,Accuracy,Macro-F1,Accuracy,Macro-F1
+History,,,,,,
+H02,No difference,No difference,AppFr,No difference,No difference,No difference
+H04,AppFr,No difference,AppFr,No difference,No difference,No difference
+H06,No difference,No difference,No difference,No difference,No difference,No difference
+H08,No difference,No difference,No difference,No difference,No difference,No difference
+H10,No difference,No difference,No difference,AppOd,No difference,No difference
+H12,No difference,No difference,No difference,No difference,No difference,No difference
+H14,No difference,No difference,No difference,No difference,No difference,No difference
+H16,No difference,No difference,AppFr,No difference,No difference,No difference
+H18,No difference,No difference,AppOd,AppOd,No difference,No difference
+H20,No difference,No difference,No difference,No difference,No difference,No difference
+H22,No difference,No difference,AppOd,AppOd,No difference,No difference
+H24,No difference,No difference,AppOd,AppOd,AppFr,No difference
+H26,No difference,No difference,No difference,No difference,AppFr,No difference
+H28,No difference,No difference,No difference,No difference,No difference,No difference
+H30,No difference,No difference,No difference,No difference,AppFr,No difference
+H32,No difference,No difference,No difference,No difference,AppFr,No difference

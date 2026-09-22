@@ -1,0 +1,16 @@
+\begin{table}[tbp]
+\caption{Macro-F1 Friedman tests.}
+\label{tab:rq3-macro-f1-friedman}
+\begin{tabular}{lllrrrrrrrrr}
+\toprule
+metric & model & approach & bags & histories & degrees\_of\_freedom & friedman\_chi2 & raw\_p & kendalls\_w & holm\_p & significant\_raw & significant\_holm \\
+\midrule
+macro\_f1 & qwen & appfr & 25 & 16 & 15 & 22.1233 & 0.104611 & 0.0589955 & 0.418442 & False & False \\
+macro\_f1 & qwen & appod & 25 & 16 & 15 & 19.353 & 0.198183 & 0.0516079 & 0.594549 & False & False \\
+macro\_f1 & internvl & appfr & 25 & 16 & 15 & 143.629 & 4.41789e-23 & 0.38301 & 2.65073e-22 & True & True \\
+macro\_f1 & internvl & appod & 25 & 16 & 15 & 82.9766 & 1.98646e-11 & 0.221271 & 9.93231e-11 & True & True \\
+macro\_f1 & llava & appfr & 25 & 16 & 15 & 17.0443 & 0.316221 & 0.0454515 & 0.624865 & False & False \\
+macro\_f1 & llava & appod & 25 & 16 & 15 & 17.1083 & 0.312432 & 0.0456221 & 0.624865 & False & False \\
+\bottomrule
+\end{tabular}
+\end{table}

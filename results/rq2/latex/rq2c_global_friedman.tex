@@ -1,0 +1,16 @@
+\begin{table}[tbp]
+\caption{RQ2-C global Friedman model comparisons.}
+\label{tab:rq2c-global-friedman}
+\begin{tabular}{llrrrrrrrrrlrrrrrr}
+\toprule
+metric & direction & possible\_configurations & n\_complete\_configurations & n\_excluded\_configurations & qwen\_median\_original & internvl\_median\_original & llava\_median\_original & qwen\_median\_oriented & internvl\_median\_oriented & llava\_median\_oriented & best\_median\_model & friedman\_chi2 & degrees\_of\_freedom & raw\_p & kendalls\_w & holm\_p & significant\_holm \\
+\midrule
+msp & higher positive correctness correlation is better & 800 & 655 & 145 & 0.235622 & -0.0637411 & 0.13283 & 0.235622 & -0.0637411 & 0.13283 & qwen & 534.745 & 2 & 7.61361e-117 & 0.408202 & 2.28408e-116 & True \\
+pcs & higher positive correctness correlation is better & 800 & 655 & 145 & 0.228881 & -0.062057 & 0.128168 & 0.228881 & -0.062057 & 0.128168 & qwen & 524.198 & 2 & 1.48507e-114 & 0.400152 & 2.97015e-114 & True \\
+deep\_gini & more negative correctness correlation is better & 800 & 655 & 145 & -0.227815 & 0.0708895 & -0.0962408 & 0.227815 & -0.0708895 & 0.0962408 & qwen & 557.096 & 2 & 1.06684e-121 & 0.425264 & 4.26738e-121 & True \\
+entropy & more negative correctness correlation is better & 800 & 655 & 145 & -0.226908 & 0.0764509 & -0.16023 & 0.226908 & -0.0764509 & 0.16023 & qwen & 573.081 & 2 & 3.60629e-125 & 0.437466 & 1.80314e-124 & True \\
+ece & lower calibration error is better & 800 & 800 & 0 & 0.0969658 & 0.430433 & 0.181339 & -0.0969658 & -0.430433 & -0.181339 & qwen & 816.077 & 2 & 6.18048e-178 & 0.510048 & 3.70829e-177 & True \\
+mce & lower calibration error is better & 800 & 800 & 0 & 0.296341 & 0.5 & 0.401598 & -0.296341 & -0.5 & -0.401598 & qwen & 231.49 & 2 & 5.40238e-51 & 0.144681 & 5.40238e-51 & True \\
+\bottomrule
+\end{tabular}
+\end{table}

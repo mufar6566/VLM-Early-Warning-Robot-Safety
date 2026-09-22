@@ -1,0 +1,7 @@
+metric,direction,possible_configurations,complete_configurations,excluded_configurations,qwen_valid_values,internvl_valid_values,llava_valid_values
+msp,higher positive correctness correlation is better,800,655,145,800,655,800
+pcs,higher positive correctness correlation is better,800,655,145,800,655,800
+deep_gini,more negative correctness correlation is better,800,655,145,800,655,800
+entropy,more negative correctness correlation is better,800,655,145,800,655,800
+ece,lower calibration error is better,800,800,0,800,800,800
+mce,lower calibration error is better,800,800,0,800,800,800

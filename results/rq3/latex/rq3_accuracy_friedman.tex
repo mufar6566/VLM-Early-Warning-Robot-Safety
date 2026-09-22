@@ -1,0 +1,16 @@
+\begin{table}[tbp]
+\caption{Accuracy Friedman tests.}
+\label{tab:rq3-accuracy-friedman}
+\begin{tabular}{lllrrrrrrrrr}
+\toprule
+metric & model & approach & bags & histories & degrees\_of\_freedom & friedman\_chi2 & raw\_p & kendalls\_w & holm\_p & significant\_raw & significant\_holm \\
+\midrule
+accuracy & qwen & appfr & 25 & 16 & 15 & 46.8317 & 3.91759e-05 & 0.124885 & 3.91759e-05 & True & True \\
+accuracy & qwen & appod & 25 & 16 & 15 & 105.041 & 1.43474e-15 & 0.280109 & 7.17371e-15 & True & True \\
+accuracy & internvl & appfr & 25 & 16 & 15 & 117.504 & 5.76579e-18 & 0.313343 & 3.45947e-17 & True & True \\
+accuracy & internvl & appod & 25 & 16 & 15 & 78.4607 & 1.33383e-10 & 0.209229 & 5.3353e-10 & True & True \\
+accuracy & llava & appfr & 25 & 16 & 15 & 67.2024 & 1.40025e-08 & 0.179206 & 4.20076e-08 & True & True \\
+accuracy & llava & appod & 25 & 16 & 15 & 49.2133 & 1.61764e-05 & 0.131236 & 3.23527e-05 & True & True \\
+\bottomrule
+\end{tabular}
+\end{table}

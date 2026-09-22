@@ -1,0 +1,5 @@
+approach,metric,H02,H04,H06,H08,H10,H12,H14,H16,H18,H20,H22,H24,H26,H28,H30,H32
+AppFr,Accuracy,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q
+AppFr,Macro-F1,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
+AppOd,Accuracy,Q,—,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q,Q
+AppOd,Macro-F1,Q,—,Q,Q,Q,Q,Q,—,—,Q,—,—,Q,Q,Q,Q

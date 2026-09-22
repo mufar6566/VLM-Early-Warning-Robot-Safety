@@ -1,0 +1,516 @@
+\begin{longtable}{llllrrllrrrrrlrrl}
+\caption{RQ2-B gated pairwise Wilcoxon-Holm model comparisons.} \label{tab:rq2b-model-pairwise-wilcoxon} \\
+\toprule
+metric & direction & approach & history & history\_frames & friedman\_holm\_p & model\_1 & model\_2 & n\_pairs & median\_oriented\_difference\_model1\_minus\_model2 & wilcoxon\_statistic & raw\_p & rank\_biserial\_model1\_minus\_model2 & descriptive\_better\_model & holm\_p & significant\_holm & significant\_better\_model \\
+\midrule
+\endfirsthead
+\caption[]{RQ2-B gated pairwise Wilcoxon-Holm model comparisons.} \\
+\toprule
+metric & direction & approach & history & history\_frames & friedman\_holm\_p & model\_1 & model\_2 & n\_pairs & median\_oriented\_difference\_model1\_minus\_model2 & wilcoxon\_statistic & raw\_p & rank\_biserial\_model1\_minus\_model2 & descriptive\_better\_model & holm\_p & significant\_holm & significant\_better\_model \\
+\midrule
+\endhead
+\midrule
+\multicolumn{17}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+msp & higher positive correctness correlation is better & appfr & H02 & 2 & 0.000396196 & qwen & internvl & 23 & 0.339574 & 15 & 3.26633e-05 & 0.891304 & qwen & 9.799e-05 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H02 & 2 & 0.000396196 & qwen & llava & 23 & 0.247212 & 19 & 7.31945e-05 & 0.862319 & qwen & 0.000146389 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H02 & 2 & 0.000396196 & internvl & llava & 23 & -0.0758053 & 73 & 0.0484409 & -0.471014 & llava & 0.0484409 & True & llava \\
+msp & higher positive correctness correlation is better & appfr & H04 & 4 & 5.71384e-05 & qwen & internvl & 22 & 0.394038 & 5 & 4.76837e-06 & 0.960474 & qwen & 1.43051e-05 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H04 & 4 & 5.71384e-05 & qwen & llava & 22 & 0.134027 & 25 & 0.0004282 & 0.802372 & qwen & 0.0004282 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H04 & 4 & 5.71384e-05 & internvl & llava & 22 & -0.221692 & 19 & 0.000146389 & -0.849802 & llava & 0.000292778 & True & llava \\
+msp & higher positive correctness correlation is better & appfr & H06 & 6 & 5.71384e-05 & qwen & internvl & 20 & 0.435267 & 5 & 1.90735e-05 & 0.952381 & qwen & 3.8147e-05 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H06 & 6 & 5.71384e-05 & qwen & llava & 20 & 0.0973798 & 41 & 0.0153122 & 0.609524 & qwen & 0.0153122 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H06 & 6 & 5.71384e-05 & internvl & llava & 20 & -0.251753 & 3 & 9.53674e-06 & -0.971429 & llava & 2.86102e-05 & True & llava \\
+msp & higher positive correctness correlation is better & appfr & H08 & 8 & 0.000487842 & qwen & internvl & 21 & 0.42885 & 12 & 6.67572e-05 & 0.896104 & qwen & 0.000133514 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H08 & 8 & 0.000487842 & qwen & llava & 21 & 0.105397 & 48 & 0.0175467 & 0.584416 & qwen & 0.0175467 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H08 & 8 & 0.000487842 & internvl & llava & 21 & -0.224545 & 10 & 4.1008e-05 & -0.91342 & llava & 0.000123024 & True & llava \\
+msp & higher positive correctness correlation is better & appfr & H10 & 10 & 0.0113168 & qwen & internvl & 11 & 0.325942 & 2 & 0.00292969 & 0.939394 & qwen & 0.00585938 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H10 & 10 & 0.0113168 & qwen & llava & 11 & 0.151411 & 14 & 0.101562 & 0.575758 & qwen & 0.101562 & False & No difference \\
+msp & higher positive correctness correlation is better & appfr & H10 & 10 & 0.0113168 & internvl & llava & 11 & -0.237435 & 1 & 0.00195312 & -0.969697 & llava & 0.00585938 & True & llava \\
+msp & higher positive correctness correlation is better & appfr & H12 & 12 & 0.00380334 & qwen & internvl & 11 & 0.284673 & 0 & 0.000976562 & 1 & qwen & 0.00292969 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H12 & 12 & 0.00380334 & qwen & llava & 11 & 0.121205 & 12 & 0.0673828 & 0.636364 & qwen & 0.0673828 & False & No difference \\
+msp & higher positive correctness correlation is better & appfr & H12 & 12 & 0.00380334 & internvl & llava & 11 & -0.185901 & 3 & 0.00488281 & -0.909091 & llava & 0.00976562 & True & llava \\
+msp & higher positive correctness correlation is better & appfr & H14 & 14 & 6.5067e-05 & qwen & internvl & 24 & 0.397048 & 11 & 6.55651e-06 & 0.926667 & qwen & 1.96695e-05 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H14 & 14 & 6.5067e-05 & qwen & llava & 24 & 0.11456 & 62 & 0.0105078 & 0.586667 & qwen & 0.0105078 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H14 & 14 & 6.5067e-05 & internvl & llava & 24 & -0.228397 & 23 & 7.62939e-05 & -0.846667 & llava & 0.000152588 & True & llava \\
+msp & higher positive correctness correlation is better & appfr & H16 & 16 & 0.000185132 & qwen & internvl & 24 & 0.328384 & 15 & 1.63317e-05 & 0.9 & qwen & 4.8995e-05 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H16 & 16 & 0.000185132 & qwen & llava & 24 & 0.110565 & 66 & 0.0150449 & 0.56 & qwen & 0.0150449 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H16 & 16 & 0.000185132 & internvl & llava & 24 & -0.222896 & 35 & 0.00049448 & -0.766667 & llava & 0.00098896 & True & llava \\
+msp & higher positive correctness correlation is better & appfr & H18 & 18 & 0.0156207 & qwen & internvl & 11 & 0.310349 & 1 & 0.00195312 & 0.969697 & qwen & 0.00585938 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H18 & 18 & 0.0156207 & qwen & llava & 11 & 0.109242 & 29 & 0.764648 & 0.121212 & qwen & 0.764648 & False & No difference \\
+msp & higher positive correctness correlation is better & appfr & H18 & 18 & 0.0156207 & internvl & llava & 11 & -0.282949 & 1 & 0.00195312 & -0.969697 & llava & 0.00585938 & True & llava \\
+msp & higher positive correctness correlation is better & appfr & H22 & 22 & 0.0156207 & qwen & internvl & 11 & 0.368627 & 1 & 0.00195312 & 0.969697 & qwen & 0.00585938 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H22 & 22 & 0.0156207 & qwen & llava & 11 & -0.0293889 & 32 & 0.96582 & -0.030303 & llava & 0.96582 & False & No difference \\
+msp & higher positive correctness correlation is better & appfr & H22 & 22 & 0.0156207 & internvl & llava & 11 & -0.346357 & 1 & 0.00195312 & -0.969697 & llava & 0.00585938 & True & llava \\
+msp & higher positive correctness correlation is better & appfr & H24 & 24 & 0.0494471 & qwen & internvl & 10 & 0.25479 & 1 & 0.00390625 & 0.963636 & qwen & 0.0117188 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H24 & 24 & 0.0494471 & qwen & llava & 10 & 0.0130825 & 26 & 0.921875 & 0.0545455 & qwen & 0.921875 & False & No difference \\
+msp & higher positive correctness correlation is better & appfr & H24 & 24 & 0.0494471 & internvl & llava & 10 & -0.292692 & 3 & 0.00976562 & -0.890909 & llava & 0.0195312 & True & llava \\
+msp & higher positive correctness correlation is better & appfr & H26 & 26 & 9.53306e-06 & qwen & internvl & 21 & 0.97933 & 0 & 9.53674e-07 & 1 & qwen & 2.86102e-06 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H26 & 26 & 9.53306e-06 & qwen & llava & 21 & 0.0187366 & 85 & 0.303816 & 0.264069 & qwen & 0.303816 & False & No difference \\
+msp & higher positive correctness correlation is better & appfr & H26 & 26 & 9.53306e-06 & internvl & llava & 21 & -0.946086 & 4 & 6.67572e-06 & -0.965368 & llava & 1.33514e-05 & True & llava \\
+msp & higher positive correctness correlation is better & appfr & H28 & 28 & 0.000152503 & qwen & internvl & 22 & 0.898088 & 6 & 6.67572e-06 & 0.952569 & qwen & 2.00272e-05 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H28 & 28 & 0.000152503 & qwen & llava & 22 & 0.0104599 & 103 & 0.462778 & 0.185771 & qwen & 0.462778 & False & No difference \\
+msp & higher positive correctness correlation is better & appfr & H28 & 28 & 0.000152503 & internvl & llava & 22 & -0.816006 & 8 & 1.19209e-05 & -0.936759 & llava & 2.38419e-05 & True & llava \\
+msp & higher positive correctness correlation is better & appfr & H30 & 30 & 5.58998e-05 & qwen & internvl & 24 & 0.846796 & 9 & 3.93391e-06 & 0.94 & qwen & 1.18017e-05 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H30 & 30 & 5.58998e-05 & qwen & llava & 24 & 0.00643498 & 117 & 0.359626 & 0.22 & qwen & 0.359626 & False & No difference \\
+msp & higher positive correctness correlation is better & appfr & H30 & 30 & 5.58998e-05 & internvl & llava & 24 & -0.765703 & 10 & 5.126e-06 & -0.933333 & llava & 1.18017e-05 & True & llava \\
+msp & higher positive correctness correlation is better & appfr & H32 & 32 & 6.5067e-05 & qwen & internvl & 23 & 0.817356 & 6 & 3.33786e-06 & 0.956522 & qwen & 1.00136e-05 & True & qwen \\
+msp & higher positive correctness correlation is better & appfr & H32 & 32 & 6.5067e-05 & qwen & llava & 23 & 0.0240819 & 98 & 0.234471 & 0.289855 & qwen & 0.234471 & False & No difference \\
+msp & higher positive correctness correlation is better & appfr & H32 & 32 & 6.5067e-05 & internvl & llava & 23 & -0.747427 & 9 & 7.86781e-06 & -0.934783 & llava & 1.57356e-05 & True & llava \\
+msp & higher positive correctness correlation is better & appod & H02 & 2 & 0.000585937 & qwen & internvl & 23 & 0.292702 & 18 & 6.03199e-05 & 0.869565 & qwen & 0.00012064 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H02 & 2 & 0.000585937 & qwen & llava & 23 & 0.197918 & 10 & 1.0252e-05 & 0.927536 & qwen & 3.0756e-05 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H02 & 2 & 0.000585937 & internvl & llava & 23 & -0.0359683 & 122 & 0.64339 & -0.115942 & llava & 0.64339 & False & No difference \\
+msp & higher positive correctness correlation is better & appod & H04 & 4 & 0.000618989 & qwen & internvl & 21 & 0.261447 & 23 & 0.000607491 & 0.800866 & qwen & 0.00182247 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H04 & 4 & 0.000618989 & qwen & llava & 21 & 0.0635752 & 58 & 0.0459929 & 0.497835 & qwen & 0.0459929 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H04 & 4 & 0.000618989 & internvl & llava & 21 & -0.124335 & 28 & 0.00137424 & -0.757576 & llava & 0.00274849 & True & llava \\
+msp & higher positive correctness correlation is better & appod & H06 & 6 & 0.0227801 & qwen & internvl & 23 & 0.470463 & 26 & 0.000253439 & 0.811594 & qwen & 0.000760317 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H06 & 6 & 0.0227801 & qwen & llava & 23 & 0.0874636 & 41 & 0.00213599 & 0.702899 & qwen & 0.00331974 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H06 & 6 & 0.0227801 & internvl & llava & 23 & -0.150055 & 39 & 0.00165987 & -0.717391 & llava & 0.00331974 & True & llava \\
+msp & higher positive correctness correlation is better & appod & H08 & 8 & 0.00104848 & qwen & internvl & 23 & 0.318635 & 22 & 0.000127792 & 0.84058 & qwen & 0.000383377 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H08 & 8 & 0.00104848 & qwen & llava & 23 & 0.0768633 & 26 & 0.000253439 & 0.811594 & qwen & 0.000506878 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H08 & 8 & 0.00104848 & internvl & llava & 23 & -0.357138 & 32 & 0.000638723 & -0.768116 & llava & 0.000638723 & True & llava \\
+msp & higher positive correctness correlation is better & appod & H10 & 10 & 8.75813e-06 & qwen & internvl & 23 & 0.550332 & 18 & 6.03199e-05 & 0.869565 & qwen & 0.00012064 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H10 & 10 & 8.75813e-06 & qwen & llava & 23 & 0.0557847 & 0 & 2.38419e-07 & 1 & qwen & 7.15256e-07 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H10 & 10 & 8.75813e-06 & internvl & llava & 23 & -0.173406 & 34 & 0.000849485 & -0.753623 & llava & 0.000849485 & True & llava \\
+msp & higher positive correctness correlation is better & appod & H12 & 12 & 7.88212e-07 & qwen & internvl & 23 & 0.486156 & 3 & 1.19209e-06 & 0.978261 & qwen & 2.38419e-06 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H12 & 12 & 7.88212e-07 & qwen & llava & 23 & 0.113004 & 2 & 7.15256e-07 & 0.985507 & qwen & 2.14577e-06 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H12 & 12 & 7.88212e-07 & internvl & llava & 23 & -0.262758 & 27 & 0.000298023 & -0.804348 & llava & 0.000298023 & True & llava \\
+msp & higher positive correctness correlation is better & appod & H14 & 14 & 8.69779e-06 & qwen & internvl & 23 & 0.278237 & 6 & 3.33786e-06 & 0.956522 & qwen & 1.00136e-05 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H14 & 14 & 8.69779e-06 & qwen & llava & 23 & 0.122517 & 18 & 6.03199e-05 & 0.869565 & qwen & 0.00012064 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H14 & 14 & 8.69779e-06 & internvl & llava & 23 & -0.152092 & 30 & 0.000475168 & -0.782609 & llava & 0.000475168 & True & llava \\
+msp & higher positive correctness correlation is better & appod & H16 & 16 & 0.000253275 & qwen & internvl & 23 & 0.240926 & 6 & 3.33786e-06 & 0.956522 & qwen & 1.00136e-05 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H16 & 16 & 0.000253275 & qwen & llava & 23 & 0.0945394 & 26 & 0.000253439 & 0.811594 & qwen & 0.000506878 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H16 & 16 & 0.000253275 & internvl & llava & 23 & -0.141273 & 35 & 0.000975847 & -0.746377 & llava & 0.000975847 & True & llava \\
+msp & higher positive correctness correlation is better & appod & H18 & 18 & 5.0054e-06 & qwen & internvl & 23 & 0.30665 & 4 & 1.66893e-06 & 0.971014 & qwen & 5.00679e-06 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H18 & 18 & 5.0054e-06 & qwen & llava & 23 & 0.136386 & 20 & 8.84533e-05 & 0.855072 & qwen & 8.84533e-05 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H18 & 18 & 5.0054e-06 & internvl & llava & 23 & -0.212317 & 15 & 3.26633e-05 & -0.891304 & llava & 6.53267e-05 & True & llava \\
+msp & higher positive correctness correlation is better & appod & H20 & 20 & 5.0054e-06 & qwen & internvl & 23 & 0.408909 & 5 & 2.38419e-06 & 0.963768 & qwen & 7.15256e-06 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H20 & 20 & 5.0054e-06 & qwen & llava & 23 & 0.106909 & 18 & 6.03199e-05 & 0.869565 & qwen & 0.00012064 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H20 & 20 & 5.0054e-06 & internvl & llava & 23 & -0.238136 & 19 & 7.31945e-05 & -0.862319 & llava & 0.00012064 & True & llava \\
+msp & higher positive correctness correlation is better & appod & H22 & 22 & 3.37086e-05 & qwen & internvl & 23 & 0.340145 & 7 & 4.52995e-06 & 0.949275 & qwen & 1.35899e-05 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H22 & 22 & 3.37086e-05 & qwen & llava & 23 & 0.100998 & 22 & 0.000127792 & 0.84058 & qwen & 0.000176907 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H22 & 22 & 3.37086e-05 & internvl & llava & 23 & -0.227108 & 20 & 8.84533e-05 & -0.855072 & llava & 0.000176907 & True & llava \\
+msp & higher positive correctness correlation is better & appod & H24 & 24 & 7.00025e-05 & qwen & internvl & 23 & 0.342126 & 6 & 3.33786e-06 & 0.956522 & qwen & 1.00136e-05 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H24 & 24 & 7.00025e-05 & qwen & llava & 23 & 0.0747403 & 48 & 0.00485134 & 0.652174 & qwen & 0.00485134 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H24 & 24 & 7.00025e-05 & internvl & llava & 23 & -0.278411 & 15 & 3.26633e-05 & -0.891304 & llava & 6.53267e-05 & True & llava \\
+msp & higher positive correctness correlation is better & appod & H32 & 32 & 0.0320713 & qwen & internvl & 23 & 0.136096 & 47 & 0.00433898 & 0.65942 & qwen & 0.0130169 & True & qwen \\
+msp & higher positive correctness correlation is better & appod & H32 & 32 & 0.0320713 & qwen & llava & 23 & 0.0461433 & 67 & 0.030087 & 0.514493 & qwen & 0.060174 & False & No difference \\
+msp & higher positive correctness correlation is better & appod & H32 & 32 & 0.0320713 & internvl & llava & 23 & -0.0485508 & 82 & 0.091753 & -0.405797 & llava & 0.091753 & False & No difference \\
+pcs & higher positive correctness correlation is better & appfr & H02 & 2 & 0.00044572 & qwen & internvl & 23 & 0.337622 & 15 & 3.26633e-05 & 0.891304 & qwen & 9.799e-05 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H02 & 2 & 0.00044572 & qwen & llava & 23 & 0.250947 & 20 & 8.84533e-05 & 0.855072 & qwen & 0.000176907 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H02 & 2 & 0.00044572 & internvl & llava & 23 & -0.0593724 & 75 & 0.0562527 & -0.456522 & llava & 0.0562527 & False & No difference \\
+pcs & higher positive correctness correlation is better & appfr & H04 & 4 & 5.71384e-05 & qwen & internvl & 22 & 0.392413 & 5 & 4.76837e-06 & 0.960474 & qwen & 1.43051e-05 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H04 & 4 & 5.71384e-05 & qwen & llava & 22 & 0.133292 & 25 & 0.0004282 & 0.802372 & qwen & 0.0004282 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H04 & 4 & 5.71384e-05 & internvl & llava & 22 & -0.221358 & 21 & 0.000213146 & -0.833992 & llava & 0.000426292 & True & llava \\
+pcs & higher positive correctness correlation is better & appfr & H06 & 6 & 5.71384e-05 & qwen & internvl & 20 & 0.433368 & 5 & 1.90735e-05 & 0.952381 & qwen & 3.8147e-05 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H06 & 6 & 5.71384e-05 & qwen & llava & 20 & 0.0903185 & 44 & 0.0214844 & 0.580952 & qwen & 0.0214844 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H06 & 6 & 5.71384e-05 & internvl & llava & 20 & -0.24586 & 3 & 9.53674e-06 & -0.971429 & llava & 2.86102e-05 & True & llava \\
+pcs & higher positive correctness correlation is better & appfr & H08 & 8 & 0.00044572 & qwen & internvl & 21 & 0.424246 & 11 & 5.24521e-05 & 0.904762 & qwen & 0.000123024 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H08 & 8 & 0.00044572 & qwen & llava & 21 & 0.0946761 & 49 & 0.0194731 & 0.575758 & qwen & 0.0194731 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H08 & 8 & 0.00044572 & internvl & llava & 21 & -0.214959 & 10 & 4.1008e-05 & -0.91342 & llava & 0.000123024 & True & llava \\
+pcs & higher positive correctness correlation is better & appfr & H10 & 10 & 0.0135801 & qwen & internvl & 11 & 0.315473 & 2 & 0.00292969 & 0.939394 & qwen & 0.00585938 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H10 & 10 & 0.0135801 & qwen & llava & 11 & 0.161513 & 14 & 0.101562 & 0.575758 & qwen & 0.101562 & False & No difference \\
+pcs & higher positive correctness correlation is better & appfr & H10 & 10 & 0.0135801 & internvl & llava & 11 & -0.223759 & 1 & 0.00195312 & -0.969697 & llava & 0.00585938 & True & llava \\
+pcs & higher positive correctness correlation is better & appfr & H12 & 12 & 0.014865 & qwen & internvl & 11 & 0.265853 & 1 & 0.00195312 & 0.969697 & qwen & 0.00585938 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H12 & 12 & 0.014865 & qwen & llava & 11 & 0.124192 & 10 & 0.0419922 & 0.69697 & qwen & 0.0419922 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H12 & 12 & 0.014865 & internvl & llava & 11 & -0.18438 & 3 & 0.00488281 & -0.909091 & llava & 0.00976562 & True & llava \\
+pcs & higher positive correctness correlation is better & appfr & H14 & 14 & 6.5067e-05 & qwen & internvl & 24 & 0.39127 & 13 & 1.04904e-05 & 0.913333 & qwen & 3.14713e-05 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H14 & 14 & 6.5067e-05 & qwen & llava & 24 & 0.101092 & 64 & 0.0126048 & 0.573333 & qwen & 0.0126048 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H14 & 14 & 6.5067e-05 & internvl & llava & 24 & -0.220991 & 26 & 0.000127077 & -0.826667 & llava & 0.000254154 & True & llava \\
+pcs & higher positive correctness correlation is better & appfr & H16 & 16 & 0.00050258 & qwen & internvl & 24 & 0.330012 & 21 & 5.32866e-05 & 0.86 & qwen & 0.00015986 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H16 & 16 & 0.00050258 & qwen & llava & 24 & 0.112722 & 70 & 0.0211271 & 0.533333 & qwen & 0.0211271 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H16 & 16 & 0.00050258 & internvl & llava & 24 & -0.215449 & 37 & 0.00064981 & -0.753333 & llava & 0.00129962 & True & llava \\
+pcs & higher positive correctness correlation is better & appfr & H18 & 18 & 0.014865 & qwen & internvl & 11 & 0.318381 & 1 & 0.00195312 & 0.969697 & qwen & 0.00585938 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H18 & 18 & 0.014865 & qwen & llava & 11 & 0.12176 & 26 & 0.577148 & 0.212121 & qwen & 0.577148 & False & No difference \\
+pcs & higher positive correctness correlation is better & appfr & H18 & 18 & 0.014865 & internvl & llava & 11 & -0.275052 & 1 & 0.00195312 & -0.969697 & llava & 0.00585938 & True & llava \\
+pcs & higher positive correctness correlation is better & appfr & H22 & 22 & 0.014865 & qwen & internvl & 11 & 0.365524 & 1 & 0.00195312 & 0.969697 & qwen & 0.00585938 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H22 & 22 & 0.014865 & qwen & llava & 11 & -0.0198637 & 33 & 1 & 0 & tie & 1 & False & No difference \\
+pcs & higher positive correctness correlation is better & appfr & H22 & 22 & 0.014865 & internvl & llava & 11 & -0.342636 & 1 & 0.00195312 & -0.969697 & llava & 0.00585938 & True & llava \\
+pcs & higher positive correctness correlation is better & appfr & H24 & 24 & 0.0404838 & qwen & internvl & 10 & 0.264326 & 1 & 0.00390625 & 0.963636 & qwen & 0.0117188 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H24 & 24 & 0.0404838 & qwen & llava & 10 & 0.0339461 & 26 & 0.921875 & 0.0545455 & qwen & 0.921875 & False & No difference \\
+pcs & higher positive correctness correlation is better & appfr & H24 & 24 & 0.0404838 & internvl & llava & 10 & -0.283928 & 3 & 0.00976562 & -0.890909 & llava & 0.0195312 & True & llava \\
+pcs & higher positive correctness correlation is better & appfr & H26 & 26 & 9.53306e-06 & qwen & internvl & 21 & 0.985912 & 0 & 9.53674e-07 & 1 & qwen & 2.86102e-06 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H26 & 26 & 9.53306e-06 & qwen & llava & 21 & 0.0367358 & 84 & 0.287734 & 0.272727 & qwen & 0.287734 & False & No difference \\
+pcs & higher positive correctness correlation is better & appfr & H26 & 26 & 9.53306e-06 & internvl & llava & 21 & -0.939881 & 4 & 6.67572e-06 & -0.965368 & llava & 1.33514e-05 & True & llava \\
+pcs & higher positive correctness correlation is better & appfr & H28 & 28 & 0.000159595 & qwen & internvl & 22 & 0.894254 & 7 & 9.05991e-06 & 0.944664 & qwen & 2.71797e-05 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H28 & 28 & 0.000159595 & qwen & llava & 22 & 0.0116972 & 94 & 0.305309 & 0.256917 & qwen & 0.305309 & False & No difference \\
+pcs & higher positive correctness correlation is better & appfr & H28 & 28 & 0.000159595 & internvl & llava & 22 & -0.811976 & 10 & 2.0504e-05 & -0.920949 & llava & 4.1008e-05 & True & llava \\
+pcs & higher positive correctness correlation is better & appfr & H30 & 30 & 4.73182e-05 & qwen & internvl & 24 & 0.852597 & 6 & 1.66893e-06 & 0.96 & qwen & 5.00679e-06 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H30 & 30 & 4.73182e-05 & qwen & llava & 24 & 0.00669064 & 115 & 0.330505 & 0.233333 & qwen & 0.330505 & False & No difference \\
+pcs & higher positive correctness correlation is better & appfr & H30 & 30 & 4.73182e-05 & internvl & llava & 24 & -0.756839 & 11 & 6.55651e-06 & -0.926667 & llava & 1.3113e-05 & True & llava \\
+pcs & higher positive correctness correlation is better & appfr & H32 & 32 & 7.70027e-05 & qwen & internvl & 23 & 0.828241 & 6 & 3.33786e-06 & 0.956522 & qwen & 1.00136e-05 & True & qwen \\
+pcs & higher positive correctness correlation is better & appfr & H32 & 32 & 7.70027e-05 & qwen & llava & 23 & 0.0246502 & 100 & 0.259452 & 0.275362 & qwen & 0.259452 & False & No difference \\
+pcs & higher positive correctness correlation is better & appfr & H32 & 32 & 7.70027e-05 & internvl & llava & 23 & -0.736478 & 9 & 7.86781e-06 & -0.934783 & llava & 1.57356e-05 & True & llava \\
+pcs & higher positive correctness correlation is better & appod & H02 & 2 & 0.000585937 & qwen & internvl & 23 & 0.290751 & 19 & 7.31945e-05 & 0.862319 & qwen & 0.000146389 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H02 & 2 & 0.000585937 & qwen & llava & 23 & 0.200127 & 10 & 1.0252e-05 & 0.927536 & qwen & 3.0756e-05 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H02 & 2 & 0.000585937 & internvl & llava & 23 & -0.0274522 & 124 & 0.686879 & -0.101449 & llava & 0.686879 & False & No difference \\
+pcs & higher positive correctness correlation is better & appod & H04 & 4 & 0.00521686 & qwen & internvl & 21 & 0.259728 & 26 & 0.00100231 & 0.774892 & qwen & 0.00300694 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H04 & 4 & 0.00521686 & qwen & llava & 21 & 0.0659025 & 60 & 0.0546932 & 0.480519 & qwen & 0.0546932 & False & No difference \\
+pcs & higher positive correctness correlation is better & appod & H04 & 4 & 0.00521686 & internvl & llava & 21 & -0.122624 & 28 & 0.00137424 & -0.757576 & llava & 0.00300694 & True & llava \\
+pcs & higher positive correctness correlation is better & appod & H06 & 6 & 0.0227801 & qwen & internvl & 23 & 0.441465 & 27 & 0.000298023 & 0.804348 & qwen & 0.00089407 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H06 & 6 & 0.0227801 & qwen & llava & 23 & 0.0880476 & 42 & 0.00241566 & 0.695652 & qwen & 0.00483131 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H06 & 6 & 0.0227801 & internvl & llava & 23 & -0.149063 & 42 & 0.00241566 & -0.695652 & llava & 0.00483131 & True & llava \\
+pcs & higher positive correctness correlation is better & appod & H08 & 8 & 0.00245259 & qwen & internvl & 23 & 0.313303 & 23 & 0.000152588 & 0.833333 & qwen & 0.000457764 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H08 & 8 & 0.00245259 & qwen & llava & 23 & 0.0766084 & 32 & 0.000638723 & 0.768116 & qwen & 0.00127745 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H08 & 8 & 0.00245259 & internvl & llava & 23 & -0.354018 & 32 & 0.000638723 & -0.768116 & llava & 0.00127745 & True & llava \\
+pcs & higher positive correctness correlation is better & appod & H10 & 10 & 9.36685e-06 & qwen & internvl & 23 & 0.529476 & 18 & 6.03199e-05 & 0.869565 & qwen & 0.00012064 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H10 & 10 & 9.36685e-06 & qwen & llava & 23 & 0.0635931 & 0 & 2.38419e-07 & 1 & qwen & 7.15256e-07 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H10 & 10 & 9.36685e-06 & internvl & llava & 23 & -0.154995 & 33 & 0.000737667 & -0.76087 & llava & 0.000737667 & True & llava \\
+pcs & higher positive correctness correlation is better & appod & H12 & 12 & 7.88212e-07 & qwen & internvl & 23 & 0.48426 & 3 & 1.19209e-06 & 0.978261 & qwen & 2.38419e-06 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H12 & 12 & 7.88212e-07 & qwen & llava & 23 & 0.11682 & 1 & 4.76837e-07 & 0.992754 & qwen & 1.43051e-06 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H12 & 12 & 7.88212e-07 & internvl & llava & 23 & -0.254141 & 27 & 0.000298023 & -0.804348 & llava & 0.000298023 & True & llava \\
+pcs & higher positive correctness correlation is better & appod & H14 & 14 & 9.36685e-06 & qwen & internvl & 23 & 0.277823 & 6 & 3.33786e-06 & 0.956522 & qwen & 1.00136e-05 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H14 & 14 & 9.36685e-06 & qwen & llava & 23 & 0.122773 & 16 & 4.02927e-05 & 0.884058 & qwen & 8.05855e-05 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H14 & 14 & 9.36685e-06 & internvl & llava & 23 & -0.143452 & 30 & 0.000475168 & -0.782609 & llava & 0.000475168 & True & llava \\
+pcs & higher positive correctness correlation is better & appod & H16 & 16 & 0.000131934 & qwen & internvl & 23 & 0.236083 & 6 & 3.33786e-06 & 0.956522 & qwen & 1.00136e-05 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H16 & 16 & 0.000131934 & qwen & llava & 23 & 0.0999467 & 27 & 0.000298023 & 0.804348 & qwen & 0.000596046 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H16 & 16 & 0.000131934 & internvl & llava & 23 & -0.12768 & 35 & 0.000975847 & -0.746377 & llava & 0.000975847 & True & llava \\
+pcs & higher positive correctness correlation is better & appod & H18 & 18 & 9.36685e-06 & qwen & internvl & 23 & 0.296752 & 4 & 1.66893e-06 & 0.971014 & qwen & 5.00679e-06 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H18 & 18 & 9.36685e-06 & qwen & llava & 23 & 0.147212 & 21 & 0.000106573 & 0.847826 & qwen & 0.000106573 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H18 & 18 & 9.36685e-06 & internvl & llava & 23 & -0.206139 & 15 & 3.26633e-05 & -0.891304 & llava & 6.53267e-05 & True & llava \\
+pcs & higher positive correctness correlation is better & appod & H20 & 20 & 9.59199e-07 & qwen & internvl & 23 & 0.406664 & 3 & 1.19209e-06 & 0.978261 & qwen & 3.57628e-06 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H20 & 20 & 9.59199e-07 & qwen & llava & 23 & 0.100816 & 20 & 8.84533e-05 & 0.855072 & qwen & 0.000146389 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H20 & 20 & 9.59199e-07 & internvl & llava & 23 & -0.232231 & 19 & 7.31945e-05 & -0.862319 & llava & 0.000146389 & True & llava \\
+pcs & higher positive correctness correlation is better & appod & H22 & 22 & 3.37086e-05 & qwen & internvl & 23 & 0.327323 & 7 & 4.52995e-06 & 0.949275 & qwen & 1.35899e-05 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H22 & 22 & 3.37086e-05 & qwen & llava & 23 & 0.0942079 & 19 & 7.31945e-05 & 0.862319 & qwen & 0.000146389 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H22 & 22 & 3.37086e-05 & internvl & llava & 23 & -0.21873 & 20 & 8.84533e-05 & -0.855072 & llava & 0.000146389 & True & llava \\
+pcs & higher positive correctness correlation is better & appod & H24 & 24 & 7.00025e-05 & qwen & internvl & 23 & 0.32853 & 6 & 3.33786e-06 & 0.956522 & qwen & 1.00136e-05 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H24 & 24 & 7.00025e-05 & qwen & llava & 23 & 0.0710269 & 47 & 0.00433898 & 0.65942 & qwen & 0.00433898 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H24 & 24 & 7.00025e-05 & internvl & llava & 23 & -0.268285 & 14 & 2.6226e-05 & -0.898551 & llava & 5.24521e-05 & True & llava \\
+pcs & higher positive correctness correlation is better & appod & H32 & 32 & 0.0454126 & qwen & internvl & 23 & 0.125072 & 48 & 0.00485134 & 0.652174 & qwen & 0.014554 & True & qwen \\
+pcs & higher positive correctness correlation is better & appod & H32 & 32 & 0.0454126 & qwen & llava & 23 & 0.0399445 & 67 & 0.030087 & 0.514493 & qwen & 0.060174 & False & No difference \\
+pcs & higher positive correctness correlation is better & appod & H32 & 32 & 0.0454126 & internvl & llava & 23 & -0.0477751 & 87 & 0.126213 & -0.369565 & llava & 0.126213 & False & No difference \\
+deep\_gini & more negative correctness correlation is better & appfr & H02 & 2 & 0.000139551 & qwen & internvl & 23 & 0.318688 & 11 & 1.3113e-05 & 0.92029 & qwen & 3.93391e-05 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H02 & 2 & 0.000139551 & qwen & llava & 23 & 0.28721 & 13 & 2.09808e-05 & 0.905797 & qwen & 4.19617e-05 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H02 & 2 & 0.000139551 & internvl & llava & 23 & -0.032609 & 115 & 0.500905 & -0.166667 & llava & 0.500905 & False & No difference \\
+deep\_gini & more negative correctness correlation is better & appfr & H04 & 4 & 3.41782e-05 & qwen & internvl & 22 & 0.352368 & 3 & 2.38419e-06 & 0.976285 & qwen & 7.15256e-06 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H04 & 4 & 3.41782e-05 & qwen & llava & 22 & 0.170735 & 11 & 2.6226e-05 & 0.913043 & qwen & 5.24521e-05 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H04 & 4 & 3.41782e-05 & internvl & llava & 22 & -0.185851 & 23 & 0.000304699 & -0.818182 & llava & 0.000304699 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appfr & H06 & 6 & 1.22383e-05 & qwen & internvl & 20 & 0.430021 & 4 & 1.33514e-05 & 0.961905 & qwen & 2.67029e-05 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H06 & 6 & 1.22383e-05 & qwen & llava & 20 & 0.136852 & 27 & 0.00232506 & 0.742857 & qwen & 0.00232506 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H06 & 6 & 1.22383e-05 & internvl & llava & 20 & -0.186597 & 1 & 3.8147e-06 & -0.990476 & llava & 1.14441e-05 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appfr & H08 & 8 & 7.01637e-05 & qwen & internvl & 21 & 0.433405 & 10 & 4.1008e-05 & 0.91342 & qwen & 8.2016e-05 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H08 & 8 & 7.01637e-05 & qwen & llava & 21 & 0.110053 & 40 & 0.00710106 & 0.65368 & qwen & 0.00710106 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H08 & 8 & 7.01637e-05 & internvl & llava & 21 & -0.234169 & 6 & 1.33514e-05 & -0.948052 & llava & 4.00543e-05 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appfr & H10 & 10 & 0.0113168 & qwen & internvl & 11 & 0.316913 & 1 & 0.00195312 & 0.969697 & qwen & 0.00585938 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H10 & 10 & 0.0113168 & qwen & llava & 11 & 0.147625 & 12 & 0.0673828 & 0.636364 & qwen & 0.0673828 & False & No difference \\
+deep\_gini & more negative correctness correlation is better & appfr & H10 & 10 & 0.0113168 & internvl & llava & 11 & -0.220082 & 3 & 0.00488281 & -0.909091 & llava & 0.00976562 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appfr & H12 & 12 & 0.00153233 & qwen & internvl & 11 & 0.311716 & 0 & 0.000976562 & 1 & qwen & 0.00292969 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H12 & 12 & 0.00153233 & qwen & llava & 11 & 0.12894 & 9 & 0.0322266 & 0.727273 & qwen & 0.0322266 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H12 & 12 & 0.00153233 & internvl & llava & 11 & -0.180423 & 1 & 0.00195312 & -0.969697 & llava & 0.00390625 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appfr & H14 & 14 & 3.34065e-05 & qwen & internvl & 24 & 0.393922 & 8 & 2.98023e-06 & 0.946667 & qwen & 8.9407e-06 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H14 & 14 & 3.34065e-05 & qwen & llava & 24 & 0.0749925 & 44 & 0.00157964 & 0.706667 & qwen & 0.00157964 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H14 & 14 & 3.34065e-05 & internvl & llava & 24 & -0.19456 & 16 & 2.01464e-05 & -0.893333 & llava & 4.02927e-05 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appfr & H16 & 16 & 0.000143991 & qwen & internvl & 24 & 0.331208 & 12 & 8.34465e-06 & 0.92 & qwen & 2.5034e-05 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H16 & 16 & 0.000143991 & qwen & llava & 24 & 0.118236 & 66 & 0.0150449 & 0.56 & qwen & 0.0150449 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H16 & 16 & 0.000143991 & internvl & llava & 24 & -0.163778 & 27 & 0.000149608 & -0.82 & llava & 0.000299215 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appfr & H18 & 18 & 0.0113168 & qwen & internvl & 11 & 0.324813 & 1 & 0.00195312 & 0.969697 & qwen & 0.00585938 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H18 & 18 & 0.0113168 & qwen & llava & 11 & 0.116368 & 24 & 0.464844 & 0.272727 & qwen & 0.464844 & False & No difference \\
+deep\_gini & more negative correctness correlation is better & appfr & H18 & 18 & 0.0113168 & internvl & llava & 11 & -0.279168 & 2 & 0.00292969 & -0.939394 & llava & 0.00585938 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appfr & H20 & 20 & 0.0148932 & qwen & internvl & 10 & 0.229707 & 2 & 0.00585938 & 0.927273 & qwen & 0.0175781 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H20 & 20 & 0.0148932 & qwen & llava & 10 & 0.0719056 & 25 & 0.845703 & 0.0909091 & qwen & 0.845703 & False & No difference \\
+deep\_gini & more negative correctness correlation is better & appfr & H20 & 20 & 0.0148932 & internvl & llava & 10 & -0.18772 & 2 & 0.00585938 & -0.927273 & llava & 0.0175781 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appfr & H22 & 22 & 0.0117155 & qwen & internvl & 11 & 0.373418 & 1 & 0.00195312 & 0.969697 & qwen & 0.00585938 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H22 & 22 & 0.0117155 & qwen & llava & 11 & 0.0115623 & 28 & 0.700195 & 0.151515 & qwen & 0.700195 & False & No difference \\
+deep\_gini & more negative correctness correlation is better & appfr & H22 & 22 & 0.0117155 & internvl & llava & 11 & -0.348576 & 1 & 0.00195312 & -0.969697 & llava & 0.00585938 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appfr & H24 & 24 & 0.0148932 & qwen & internvl & 10 & 0.292685 & 1 & 0.00390625 & 0.963636 & qwen & 0.0117188 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H24 & 24 & 0.0148932 & qwen & llava & 10 & 0.0050954 & 24 & 0.769531 & 0.127273 & qwen & 0.769531 & False & No difference \\
+deep\_gini & more negative correctness correlation is better & appfr & H24 & 24 & 0.0148932 & internvl & llava & 10 & -0.276333 & 2 & 0.00585938 & -0.927273 & llava & 0.0117188 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appfr & H26 & 26 & 4.37515e-06 & qwen & internvl & 21 & 0.931882 & 0 & 9.53674e-07 & 1 & qwen & 2.86102e-06 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H26 & 26 & 4.37515e-06 & qwen & llava & 21 & 0.0675715 & 69 & 0.111058 & 0.402597 & qwen & 0.111058 & False & No difference \\
+deep\_gini & more negative correctness correlation is better & appfr & H26 & 26 & 4.37515e-06 & internvl & llava & 21 & -0.935722 & 2 & 2.86102e-06 & -0.982684 & llava & 5.72205e-06 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appfr & H28 & 28 & 4.08132e-05 & qwen & internvl & 22 & 0.874088 & 7 & 9.05991e-06 & 0.944664 & qwen & 1.81198e-05 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H28 & 28 & 4.08132e-05 & qwen & llava & 22 & 0.0500906 & 87 & 0.209928 & 0.312253 & qwen & 0.209928 & False & No difference \\
+deep\_gini & more negative correctness correlation is better & appfr & H28 & 28 & 4.08132e-05 & internvl & llava & 22 & -0.8227 & 5 & 4.76837e-06 & -0.960474 & llava & 1.43051e-05 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appfr & H30 & 30 & 4.14305e-06 & qwen & internvl & 24 & 0.859526 & 8 & 2.98023e-06 & 0.946667 & qwen & 8.9407e-06 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H30 & 30 & 4.14305e-06 & qwen & llava & 24 & 0.0411776 & 109 & 0.252249 & 0.273333 & qwen & 0.252249 & False & No difference \\
+deep\_gini & more negative correctness correlation is better & appfr & H30 & 30 & 4.14305e-06 & internvl & llava & 24 & -0.728856 & 8 & 2.98023e-06 & -0.946667 & llava & 8.9407e-06 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appfr & H32 & 32 & 1.90235e-05 & qwen & internvl & 23 & 0.83213 & 7 & 4.52995e-06 & 0.949275 & qwen & 1.35899e-05 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appfr & H32 & 32 & 1.90235e-05 & qwen & llava & 23 & 0.0435769 & 97 & 0.222615 & 0.297101 & qwen & 0.222615 & False & No difference \\
+deep\_gini & more negative correctness correlation is better & appfr & H32 & 32 & 1.90235e-05 & internvl & llava & 23 & -0.727428 & 8 & 5.96046e-06 & -0.942029 & llava & 1.35899e-05 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appod & H02 & 2 & 0.000173438 & qwen & internvl & 23 & 0.275578 & 19 & 7.31945e-05 & 0.862319 & qwen & 0.000146389 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H02 & 2 & 0.000173438 & qwen & llava & 23 & 0.22763 & 7 & 4.52995e-06 & 0.949275 & qwen & 1.35899e-05 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H02 & 2 & 0.000173438 & internvl & llava & 23 & 0.033884 & 109 & 0.393073 & 0.210145 & internvl & 0.393073 & False & No difference \\
+deep\_gini & more negative correctness correlation is better & appod & H04 & 4 & 0.0394487 & qwen & internvl & 21 & 0.261597 & 30 & 0.00185871 & 0.74026 & qwen & 0.00557613 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H04 & 4 & 0.0394487 & qwen & llava & 21 & 0.0815484 & 46 & 0.0141659 & 0.601732 & qwen & 0.0141659 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H04 & 4 & 0.0394487 & internvl & llava & 21 & -0.0721922 & 37 & 0.004879 & -0.679654 & llava & 0.009758 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appod & H06 & 6 & 0.018484 & qwen & internvl & 23 & 0.502095 & 26 & 0.000253439 & 0.811594 & qwen & 0.000760317 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H06 & 6 & 0.018484 & qwen & llava & 23 & 0.0858636 & 37 & 0.00127864 & 0.731884 & qwen & 0.00223684 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H06 & 6 & 0.018484 & internvl & llava & 23 & -0.217524 & 36 & 0.00111842 & -0.73913 & llava & 0.00223684 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appod & H08 & 8 & 0.00245259 & qwen & internvl & 23 & 0.339798 & 23 & 0.000152588 & 0.833333 & qwen & 0.000457764 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H08 & 8 & 0.00245259 & qwen & llava & 23 & 0.0845658 & 28 & 0.000349283 & 0.797101 & qwen & 0.000698566 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H08 & 8 & 0.00245259 & internvl & llava & 23 & -0.325119 & 30 & 0.000475168 & -0.782609 & llava & 0.000698566 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appod & H10 & 10 & 8.70012e-05 & qwen & internvl & 23 & 0.569346 & 17 & 4.93526e-05 & 0.876812 & qwen & 9.87053e-05 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H10 & 10 & 8.70012e-05 & qwen & llava & 23 & 0.0848922 & 4 & 1.66893e-06 & 0.971014 & qwen & 5.00679e-06 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H10 & 10 & 8.70012e-05 & internvl & llava & 23 & -0.182823 & 35 & 0.000975847 & -0.746377 & llava & 0.000975847 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appod & H12 & 12 & 1.72166e-05 & qwen & internvl & 23 & 0.484731 & 5 & 2.38419e-06 & 0.963768 & qwen & 4.76837e-06 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H12 & 12 & 1.72166e-05 & qwen & llava & 23 & 0.121064 & 3 & 1.19209e-06 & 0.978261 & qwen & 3.57628e-06 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H12 & 12 & 1.72166e-05 & internvl & llava & 23 & -0.20898 & 30 & 0.000475168 & -0.782609 & llava & 0.000475168 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appod & H14 & 14 & 8.4003e-05 & qwen & internvl & 23 & 0.278182 & 8 & 5.96046e-06 & 0.942029 & qwen & 1.78814e-05 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H14 & 14 & 8.4003e-05 & qwen & llava & 23 & 0.121383 & 23 & 0.000152588 & 0.833333 & qwen & 0.000305176 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H14 & 14 & 8.4003e-05 & internvl & llava & 23 & -0.0936365 & 30 & 0.000475168 & -0.782609 & llava & 0.000475168 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appod & H16 & 16 & 0.000131934 & qwen & internvl & 23 & 0.257729 & 7 & 4.52995e-06 & 0.949275 & qwen & 1.35899e-05 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H16 & 16 & 0.000131934 & qwen & llava & 23 & 0.0928917 & 25 & 0.000214815 & 0.818841 & qwen & 0.00042963 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H16 & 16 & 0.000131934 & internvl & llava & 23 & -0.104327 & 45 & 0.00345254 & -0.673913 & llava & 0.00345254 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appod & H18 & 18 & 5.33909e-06 & qwen & internvl & 23 & 0.330592 & 4 & 1.66893e-06 & 0.971014 & qwen & 5.00679e-06 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H18 & 18 & 5.33909e-06 & qwen & llava & 23 & 0.112003 & 24 & 0.000181437 & 0.826087 & qwen & 0.000181437 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H18 & 18 & 5.33909e-06 & internvl & llava & 23 & -0.229583 & 15 & 3.26633e-05 & -0.891304 & llava & 6.53267e-05 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appod & H20 & 20 & 5.33909e-06 & qwen & internvl & 23 & 0.396239 & 5 & 2.38419e-06 & 0.963768 & qwen & 7.15256e-06 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H20 & 20 & 5.33909e-06 & qwen & llava & 23 & 0.103658 & 23 & 0.000152588 & 0.833333 & qwen & 0.000176907 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H20 & 20 & 5.33909e-06 & internvl & llava & 23 & -0.228009 & 20 & 8.84533e-05 & -0.855072 & llava & 0.000176907 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appod & H22 & 22 & 8.4003e-05 & qwen & internvl & 23 & 0.361395 & 9 & 7.86781e-06 & 0.934783 & qwen & 2.36034e-05 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H22 & 22 & 8.4003e-05 & qwen & llava & 23 & 0.0874966 & 31 & 0.000551701 & 0.775362 & qwen & 0.000551701 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H22 & 22 & 8.4003e-05 & internvl & llava & 23 & -0.184612 & 23 & 0.000152588 & -0.833333 & llava & 0.000305176 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appod & H24 & 24 & 3.98375e-05 & qwen & internvl & 23 & 0.363133 & 6 & 3.33786e-06 & 0.956522 & qwen & 1.00136e-05 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H24 & 24 & 3.98375e-05 & qwen & llava & 23 & 0.0797757 & 50 & 0.00603271 & 0.637681 & qwen & 0.00603271 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H24 & 24 & 3.98375e-05 & internvl & llava & 23 & -0.203234 & 15 & 3.26633e-05 & -0.891304 & llava & 6.53267e-05 & True & llava \\
+deep\_gini & more negative correctness correlation is better & appod & H32 & 32 & 0.018484 & qwen & internvl & 23 & 0.149597 & 40 & 0.00188494 & 0.710145 & qwen & 0.00565481 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & appod & H32 & 32 & 0.018484 & qwen & llava & 23 & 0.0671649 & 67 & 0.030087 & 0.514493 & qwen & 0.060174 & False & No difference \\
+deep\_gini & more negative correctness correlation is better & appod & H32 & 32 & 0.018484 & internvl & llava & 23 & -0.0822875 & 67 & 0.030087 & -0.514493 & llava & 0.060174 & False & No difference \\
+entropy & more negative correctness correlation is better & appfr & H02 & 2 & 1.75592e-05 & qwen & internvl & 23 & 0.322015 & 10 & 1.0252e-05 & 0.927536 & qwen & 3.0756e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H02 & 2 & 1.75592e-05 & qwen & llava & 23 & 0.202069 & 17 & 4.93526e-05 & 0.876812 & qwen & 9.87053e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H02 & 2 & 1.75592e-05 & internvl & llava & 23 & -0.072399 & 65 & 0.0254226 & -0.528986 & llava & 0.0254226 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H04 & 4 & 1.13126e-05 & qwen & internvl & 22 & 0.340491 & 1 & 9.53674e-07 & 0.992095 & qwen & 2.86102e-06 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H04 & 4 & 1.13126e-05 & qwen & llava & 22 & 0.114282 & 33 & 0.00145483 & 0.73913 & qwen & 0.00145483 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H04 & 4 & 1.13126e-05 & internvl & llava & 22 & -0.215017 & 9 & 1.57356e-05 & -0.928854 & llava & 3.14713e-05 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H06 & 6 & 1.13126e-05 & qwen & internvl & 20 & 0.431448 & 3 & 9.53674e-06 & 0.971429 & qwen & 1.90735e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H06 & 6 & 1.13126e-05 & qwen & llava & 20 & 0.0906142 & 44 & 0.0214844 & 0.580952 & qwen & 0.0214844 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H06 & 6 & 1.13126e-05 & internvl & llava & 20 & -0.251216 & 1 & 3.8147e-06 & -0.990476 & llava & 1.14441e-05 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H08 & 8 & 0.000236602 & qwen & internvl & 21 & 0.441413 & 10 & 4.1008e-05 & 0.91342 & qwen & 8.2016e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H08 & 8 & 0.000236602 & qwen & llava & 21 & 0.108216 & 75 & 0.167807 & 0.350649 & qwen & 0.167807 & False & No difference \\
+entropy & more negative correctness correlation is better & appfr & H08 & 8 & 0.000236602 & internvl & llava & 21 & -0.255431 & 3 & 4.76837e-06 & -0.974026 & llava & 1.43051e-05 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H10 & 10 & 0.00550891 & qwen & internvl & 11 & 0.32177 & 1 & 0.00195312 & 0.969697 & qwen & 0.00585938 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H10 & 10 & 0.00550891 & qwen & llava & 11 & 0.118654 & 27 & 0.637695 & 0.181818 & qwen & 0.637695 & False & No difference \\
+entropy & more negative correctness correlation is better & appfr & H10 & 10 & 0.00550891 & internvl & llava & 11 & -0.355892 & 2 & 0.00292969 & -0.939394 & llava & 0.00585938 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H12 & 12 & 0.00153233 & qwen & internvl & 11 & 0.31382 & 0 & 0.000976562 & 1 & qwen & 0.00292969 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H12 & 12 & 0.00153233 & qwen & llava & 11 & 0.0520704 & 28 & 0.700195 & 0.151515 & qwen & 0.700195 & False & No difference \\
+entropy & more negative correctness correlation is better & appfr & H12 & 12 & 0.00153233 & internvl & llava & 11 & -0.285986 & 0 & 0.000976562 & -1 & llava & 0.00292969 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H14 & 14 & 1.91333e-05 & qwen & internvl & 24 & 0.391561 & 6 & 1.66893e-06 & 0.96 & qwen & 3.33786e-06 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H14 & 14 & 1.91333e-05 & qwen & llava & 24 & 0.0457532 & 103 & 0.187501 & 0.313333 & qwen & 0.187501 & False & No difference \\
+entropy & more negative correctness correlation is better & appfr & H14 & 14 & 1.91333e-05 & internvl & llava & 24 & -0.290542 & 3 & 5.96046e-07 & -0.98 & llava & 1.78814e-06 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H16 & 16 & 0.00050258 & qwen & internvl & 24 & 0.348022 & 11 & 6.55651e-06 & 0.926667 & qwen & 1.3113e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H16 & 16 & 0.00050258 & qwen & llava & 24 & 0.0577721 & 106 & 0.218219 & 0.293333 & qwen & 0.218219 & False & No difference \\
+entropy & more negative correctness correlation is better & appfr & H16 & 16 & 0.00050258 & internvl & llava & 24 & -0.283223 & 7 & 2.26498e-06 & -0.953333 & llava & 6.79493e-06 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H18 & 18 & 0.00499333 & qwen & internvl & 11 & 0.329618 & 1 & 0.00195312 & 0.969697 & qwen & 0.00390625 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H18 & 18 & 0.00499333 & qwen & llava & 11 & -0.0166069 & 29 & 0.764648 & -0.121212 & llava & 0.764648 & False & No difference \\
+entropy & more negative correctness correlation is better & appfr & H18 & 18 & 0.00499333 & internvl & llava & 11 & -0.369859 & 0 & 0.000976562 & -1 & llava & 0.00292969 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H20 & 20 & 0.00550891 & qwen & internvl & 10 & 0.230657 & 1 & 0.00390625 & 0.963636 & qwen & 0.0078125 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H20 & 20 & 0.00550891 & qwen & llava & 10 & -0.110093 & 17 & 0.322266 & -0.381818 & llava & 0.322266 & False & No difference \\
+entropy & more negative correctness correlation is better & appfr & H20 & 20 & 0.00550891 & internvl & llava & 10 & -0.348498 & 0 & 0.00195312 & -1 & llava & 0.00585938 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H22 & 22 & 0.00499333 & qwen & internvl & 11 & 0.373045 & 1 & 0.00195312 & 0.969697 & qwen & 0.00390625 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H22 & 22 & 0.00499333 & qwen & llava & 11 & 0.0374196 & 32 & 0.96582 & -0.030303 & llava & 0.96582 & False & No difference \\
+entropy & more negative correctness correlation is better & appfr & H22 & 22 & 0.00499333 & internvl & llava & 11 & -0.393022 & 0 & 0.000976562 & -1 & llava & 0.00292969 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H24 & 24 & 0.00550891 & qwen & internvl & 10 & 0.303 & 1 & 0.00390625 & 0.963636 & qwen & 0.0078125 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H24 & 24 & 0.00550891 & qwen & llava & 10 & -0.120355 & 16 & 0.275391 & -0.418182 & llava & 0.275391 & False & No difference \\
+entropy & more negative correctness correlation is better & appfr & H24 & 24 & 0.00550891 & internvl & llava & 10 & -0.377064 & 0 & 0.00195312 & -1 & llava & 0.00585938 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H26 & 26 & 2.07707e-06 & qwen & internvl & 21 & 0.921657 & 0 & 9.53674e-07 & 1 & qwen & 2.86102e-06 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H26 & 26 & 2.07707e-06 & qwen & llava & 21 & 0.0591565 & 104 & 0.707934 & 0.0995671 & qwen & 0.707934 & False & No difference \\
+entropy & more negative correctness correlation is better & appfr & H26 & 26 & 2.07707e-06 & internvl & llava & 21 & -0.985549 & 0 & 9.53674e-07 & -1 & llava & 2.86102e-06 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H28 & 28 & 4.02276e-05 & qwen & internvl & 22 & 0.87273 & 6 & 6.67572e-06 & 0.952569 & qwen & 1.33514e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H28 & 28 & 4.02276e-05 & qwen & llava & 22 & 0.00610817 & 121 & 0.873604 & -0.0434783 & llava & 0.873604 & False & No difference \\
+entropy & more negative correctness correlation is better & appfr & H28 & 28 & 4.02276e-05 & internvl & llava & 22 & -0.85504 & 2 & 1.43051e-06 & -0.98419 & llava & 4.29153e-06 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H30 & 30 & 4.04937e-06 & qwen & internvl & 24 & 0.864141 & 9 & 3.93391e-06 & 0.94 & qwen & 7.86781e-06 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H30 & 30 & 4.04937e-06 & qwen & llava & 24 & 0.00826988 & 148 & 0.966447 & -0.0133333 & llava & 0.966447 & False & No difference \\
+entropy & more negative correctness correlation is better & appfr & H30 & 30 & 4.04937e-06 & internvl & llava & 24 & -0.835387 & 3 & 5.96046e-07 & -0.98 & llava & 1.78814e-06 & True & llava \\
+entropy & more negative correctness correlation is better & appfr & H32 & 32 & 7.87162e-06 & qwen & internvl & 23 & 0.8434 & 9 & 7.86781e-06 & 0.934783 & qwen & 1.57356e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appfr & H32 & 32 & 7.87162e-06 & qwen & llava & 23 & 0.00704724 & 138 & 1 & 0 & tie & 1 & False & No difference \\
+entropy & more negative correctness correlation is better & appfr & H32 & 32 & 7.87162e-06 & internvl & llava & 23 & -0.76307 & 2 & 7.15256e-07 & -0.985507 & llava & 2.14577e-06 & True & llava \\
+entropy & more negative correctness correlation is better & appod & H02 & 2 & 0.00065918 & qwen & internvl & 23 & 0.28551 & 17 & 4.93526e-05 & 0.876812 & qwen & 9.87053e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H02 & 2 & 0.00065918 & qwen & llava & 23 & 0.177426 & 11 & 1.3113e-05 & 0.92029 & qwen & 3.93391e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H02 & 2 & 0.00065918 & internvl & llava & 23 & -0.00577124 & 122 & 0.64339 & -0.115942 & llava & 0.64339 & False & No difference \\
+entropy & more negative correctness correlation is better & appod & H04 & 4 & 0.00521686 & qwen & internvl & 21 & 0.279276 & 27 & 0.00117588 & 0.766234 & qwen & 0.00352764 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H04 & 4 & 0.00521686 & qwen & llava & 21 & 0.0487497 & 53 & 0.0290146 & 0.541126 & qwen & 0.0290146 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H04 & 4 & 0.00521686 & internvl & llava & 21 & -0.0862314 & 30 & 0.00185871 & -0.74026 & llava & 0.00371742 & True & llava \\
+entropy & more negative correctness correlation is better & appod & H06 & 6 & 0.00656247 & qwen & internvl & 23 & 0.562497 & 25 & 0.000214815 & 0.818841 & qwen & 0.000644445 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H06 & 6 & 0.00656247 & qwen & llava & 23 & 0.0612372 & 56 & 0.0111566 & 0.594203 & qwen & 0.0111566 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H06 & 6 & 0.00656247 & internvl & llava & 23 & -0.351358 & 31 & 0.000551701 & -0.775362 & llava & 0.0011034 & True & llava \\
+entropy & more negative correctness correlation is better & appod & H08 & 8 & 0.00450794 & qwen & internvl & 23 & 0.460651 & 23 & 0.000152588 & 0.833333 & qwen & 0.000457764 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H08 & 8 & 0.00450794 & qwen & llava & 23 & 0.0574749 & 48 & 0.00485134 & 0.652174 & qwen & 0.00485134 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H08 & 8 & 0.00450794 & internvl & llava & 23 & -0.379805 & 28 & 0.000349283 & -0.797101 & llava & 0.000698566 & True & llava \\
+entropy & more negative correctness correlation is better & appod & H10 & 10 & 0.000167267 & qwen & internvl & 23 & 0.593303 & 18 & 6.03199e-05 & 0.869565 & qwen & 0.00018096 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H10 & 10 & 0.000167267 & qwen & llava & 23 & 0.0655801 & 20 & 8.84533e-05 & 0.855072 & qwen & 0.00018096 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H10 & 10 & 0.000167267 & internvl & llava & 23 & -0.348653 & 29 & 0.000407934 & -0.789855 & llava & 0.000407934 & True & llava \\
+entropy & more negative correctness correlation is better & appod & H12 & 12 & 8.08929e-05 & qwen & internvl & 23 & 0.511656 & 8 & 5.96046e-06 & 0.942029 & qwen & 1.78814e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H12 & 12 & 8.08929e-05 & qwen & llava & 23 & 0.0700004 & 24 & 0.000181437 & 0.826087 & qwen & 0.000362873 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H12 & 12 & 8.08929e-05 & internvl & llava & 23 & -0.30684 & 31 & 0.000551701 & -0.775362 & llava & 0.000551701 & True & llava \\
+entropy & more negative correctness correlation is better & appod & H14 & 14 & 0.000216798 & qwen & internvl & 23 & 0.282611 & 10 & 1.0252e-05 & 0.927536 & qwen & 3.0756e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H14 & 14 & 0.000216798 & qwen & llava & 23 & 0.0645314 & 57 & 0.0122945 & 0.586957 & qwen & 0.0122945 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H14 & 14 & 0.000216798 & internvl & llava & 23 & -0.17829 & 25 & 0.000214815 & -0.818841 & llava & 0.00042963 & True & llava \\
+entropy & more negative correctness correlation is better & appod & H16 & 16 & 0.00215935 & qwen & internvl & 23 & 0.26009 & 10 & 1.0252e-05 & 0.927536 & qwen & 3.0756e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H16 & 16 & 0.00215935 & qwen & llava & 23 & 0.0392027 & 66 & 0.0276742 & 0.521739 & qwen & 0.0276742 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H16 & 16 & 0.00215935 & internvl & llava & 23 & -0.210788 & 32 & 0.000638723 & -0.768116 & llava & 0.00127745 & True & llava \\
+entropy & more negative correctness correlation is better & appod & H18 & 18 & 8.08929e-05 & qwen & internvl & 23 & 0.390319 & 6 & 3.33786e-06 & 0.956522 & qwen & 1.00136e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H18 & 18 & 8.08929e-05 & qwen & llava & 23 & 0.0939957 & 56 & 0.0111566 & 0.594203 & qwen & 0.0111566 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H18 & 18 & 8.08929e-05 & internvl & llava & 23 & -0.312793 & 19 & 7.31945e-05 & -0.862319 & llava & 0.000146389 & True & llava \\
+entropy & more negative correctness correlation is better & appod & H20 & 20 & 0.000167267 & qwen & internvl & 23 & 0.409597 & 6 & 3.33786e-06 & 0.956522 & qwen & 1.00136e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H20 & 20 & 0.000167267 & qwen & llava & 23 & 0.0683688 & 62 & 0.0195572 & 0.550725 & qwen & 0.0195572 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H20 & 20 & 0.000167267 & internvl & llava & 23 & -0.300145 & 23 & 0.000152588 & -0.833333 & llava & 0.000305176 & True & llava \\
+entropy & more negative correctness correlation is better & appod & H22 & 22 & 5.12095e-05 & qwen & internvl & 23 & 0.415542 & 8 & 5.96046e-06 & 0.942029 & qwen & 1.78814e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H22 & 22 & 5.12095e-05 & qwen & llava & 23 & 0.0649852 & 71 & 0.0415251 & 0.485507 & qwen & 0.0415251 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H22 & 22 & 5.12095e-05 & internvl & llava & 23 & -0.310802 & 15 & 3.26633e-05 & -0.891304 & llava & 6.53267e-05 & True & llava \\
+entropy & more negative correctness correlation is better & appod & H24 & 24 & 0.000167267 & qwen & internvl & 23 & 0.4125 & 6 & 3.33786e-06 & 0.956522 & qwen & 1.00136e-05 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H24 & 24 & 0.000167267 & qwen & llava & 23 & 0.0467333 & 75 & 0.0562527 & 0.456522 & qwen & 0.0562527 & False & No difference \\
+entropy & more negative correctness correlation is better & appod & H24 & 24 & 0.000167267 & internvl & llava & 23 & -0.329766 & 16 & 4.02927e-05 & -0.884058 & llava & 8.05855e-05 & True & llava \\
+entropy & more negative correctness correlation is better & appod & H26 & 26 & 0.00656247 & qwen & internvl & 24 & 0.164166 & 29 & 0.000205159 & 0.806667 & qwen & 0.000615478 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H26 & 26 & 0.00656247 & qwen & llava & 24 & 0.0651466 & 100 & 0.159985 & 0.333333 & qwen & 0.159985 & False & No difference \\
+entropy & more negative correctness correlation is better & appod & H26 & 26 & 0.00656247 & internvl & llava & 24 & -0.230182 & 54 & 0.00481069 & -0.64 & llava & 0.00962138 & True & llava \\
+entropy & more negative correctness correlation is better & appod & H30 & 30 & 0.00542548 & qwen & internvl & 23 & 0.13875 & 36 & 0.00111842 & 0.73913 & qwen & 0.00335526 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H30 & 30 & 0.00542548 & qwen & llava & 23 & 0.068712 & 79 & 0.0748692 & 0.427536 & qwen & 0.0748692 & False & No difference \\
+entropy & more negative correctness correlation is better & appod & H30 & 30 & 0.00542548 & internvl & llava & 23 & -0.221461 & 57 & 0.0122945 & -0.586957 & llava & 0.0245891 & True & llava \\
+entropy & more negative correctness correlation is better & appod & H32 & 32 & 0.00563407 & qwen & internvl & 23 & 0.190754 & 26 & 0.000253439 & 0.811594 & qwen & 0.000760317 & True & qwen \\
+entropy & more negative correctness correlation is better & appod & H32 & 32 & 0.00563407 & qwen & llava & 23 & 0.0229896 & 96 & 0.211178 & 0.304348 & qwen & 0.211178 & False & No difference \\
+entropy & more negative correctness correlation is better & appod & H32 & 32 & 0.00563407 & internvl & llava & 23 & -0.192365 & 40 & 0.00188494 & -0.710145 & llava & 0.00376987 & True & llava \\
+ece & lower calibration error is better & appfr & H02 & 2 & 0.0162445 & qwen & internvl & 25 & 0.0814832 & 23 & 3.8147e-05 & 0.858462 & qwen & 0.000114441 & True & qwen \\
+ece & lower calibration error is better & appfr & H02 & 2 & 0.0162445 & qwen & llava & 25 & 0.0647985 & 93 & 0.0626264 & 0.427692 & qwen & 0.125253 & False & No difference \\
+ece & lower calibration error is better & appfr & H02 & 2 & 0.0162445 & internvl & llava & 25 & -0.00551573 & 101 & 0.101397 & -0.378462 & llava & 0.125253 & False & No difference \\
+ece & lower calibration error is better & appfr & H04 & 4 & 0.0037468 & qwen & internvl & 25 & 0.102122 & 16 & 1.00732e-05 & 0.901538 & qwen & 3.02196e-05 & True & qwen \\
+ece & lower calibration error is better & appfr & H04 & 4 & 0.0037468 & qwen & llava & 25 & 0.0772347 & 99 & 0.0903161 & 0.390769 & qwen & 0.150959 & False & No difference \\
+ece & lower calibration error is better & appfr & H04 & 4 & 0.0037468 & internvl & llava & 25 & -0.0459989 & 96 & 0.0754796 & -0.409231 & llava & 0.150959 & False & No difference \\
+ece & lower calibration error is better & appfr & H06 & 6 & 1.13016e-05 & qwen & internvl & 25 & 0.305668 & 0 & 5.96046e-08 & 1 & qwen & 1.78814e-07 & True & qwen \\
+ece & lower calibration error is better & appfr & H06 & 6 & 1.13016e-05 & qwen & llava & 25 & 0.115768 & 87 & 0.0421502 & 0.464615 & qwen & 0.0421502 & True & qwen \\
+ece & lower calibration error is better & appfr & H06 & 6 & 1.13016e-05 & internvl & llava & 25 & -0.233449 & 24 & 4.54187e-05 & -0.852308 & llava & 9.08375e-05 & True & llava \\
+ece & lower calibration error is better & appfr & H08 & 8 & 7.78918e-06 & qwen & internvl & 25 & 0.289059 & 0 & 5.96046e-08 & 1 & qwen & 1.78814e-07 & True & qwen \\
+ece & lower calibration error is better & appfr & H08 & 8 & 7.78918e-06 & qwen & llava & 25 & 0.124551 & 79 & 0.0236499 & 0.513846 & qwen & 0.0236499 & True & qwen \\
+ece & lower calibration error is better & appfr & H08 & 8 & 7.78918e-06 & internvl & llava & 25 & -0.229279 & 32 & 0.000162303 & -0.803077 & llava & 0.000324607 & True & llava \\
+ece & lower calibration error is better & appfr & H10 & 10 & 1.84169e-07 & qwen & internvl & 25 & 0.378594 & 0 & 5.96046e-08 & 1 & qwen & 1.78814e-07 & True & qwen \\
+ece & lower calibration error is better & appfr & H10 & 10 & 1.84169e-07 & qwen & llava & 25 & 0.083984 & 85 & 0.0366821 & 0.476923 & qwen & 0.0366821 & True & qwen \\
+ece & lower calibration error is better & appfr & H10 & 10 & 1.84169e-07 & internvl & llava & 25 & -0.300535 & 7 & 1.13249e-06 & -0.956923 & llava & 2.26498e-06 & True & llava \\
+ece & lower calibration error is better & appfr & H12 & 12 & 2.00052e-06 & qwen & internvl & 25 & 0.349565 & 0 & 5.96046e-08 & 1 & qwen & 1.78814e-07 & True & qwen \\
+ece & lower calibration error is better & appfr & H12 & 12 & 2.00052e-06 & qwen & llava & 25 & 0.0944133 & 86 & 0.0393387 & 0.470769 & qwen & 0.0393387 & True & qwen \\
+ece & lower calibration error is better & appfr & H12 & 12 & 2.00052e-06 & internvl & llava & 25 & -0.284416 & 12 & 4.17233e-06 & -0.926154 & llava & 8.34465e-06 & True & llava \\
+ece & lower calibration error is better & appfr & H14 & 14 & 0.00104746 & qwen & internvl & 25 & 0.130256 & 0 & 5.96046e-08 & 1 & qwen & 1.78814e-07 & True & qwen \\
+ece & lower calibration error is better & appfr & H14 & 14 & 0.00104746 & qwen & llava & 25 & 0.0781184 & 92 & 0.0587515 & 0.433846 & qwen & 0.0902454 & False & No difference \\
+ece & lower calibration error is better & appfr & H14 & 14 & 0.00104746 & internvl & llava & 25 & -0.094355 & 88 & 0.0451227 & -0.458462 & llava & 0.0902454 & False & No difference \\
+ece & lower calibration error is better & appfr & H16 & 16 & 0.000974383 & qwen & internvl & 25 & 0.157766 & 2 & 1.78814e-07 & 0.987692 & qwen & 5.36442e-07 & True & qwen \\
+ece & lower calibration error is better & appfr & H16 & 16 & 0.000974383 & qwen & llava & 25 & 0.11384 & 78 & 0.0219083 & 0.52 & qwen & 0.0438167 & True & qwen \\
+ece & lower calibration error is better & appfr & H16 & 16 & 0.000974383 & internvl & llava & 25 & -0.0823651 & 92 & 0.0587515 & -0.433846 & llava & 0.0587515 & False & No difference \\
+ece & lower calibration error is better & appfr & H18 & 18 & 7.41159e-07 & qwen & internvl & 25 & 0.384113 & 0 & 5.96046e-08 & 1 & qwen & 1.78814e-07 & True & qwen \\
+ece & lower calibration error is better & appfr & H18 & 18 & 7.41159e-07 & qwen & llava & 25 & 0.10652 & 75 & 0.0173123 & 0.538462 & qwen & 0.0173123 & True & qwen \\
+ece & lower calibration error is better & appfr & H18 & 18 & 7.41159e-07 & internvl & llava & 25 & -0.313826 & 8 & 1.49012e-06 & -0.950769 & llava & 2.98023e-06 & True & llava \\
+ece & lower calibration error is better & appfr & H20 & 20 & 5.35535e-06 & qwen & internvl & 25 & 0.34923 & 0 & 5.96046e-08 & 1 & qwen & 1.78814e-07 & True & qwen \\
+ece & lower calibration error is better & appfr & H20 & 20 & 5.35535e-06 & qwen & llava & 25 & 0.117921 & 75 & 0.0173123 & 0.538462 & qwen & 0.0173123 & True & qwen \\
+ece & lower calibration error is better & appfr & H20 & 20 & 5.35535e-06 & internvl & llava & 25 & -0.285734 & 15 & 8.16584e-06 & -0.907692 & llava & 1.63317e-05 & True & llava \\
+ece & lower calibration error is better & appfr & H22 & 22 & 5.73247e-07 & qwen & internvl & 25 & 0.38623 & 0 & 5.96046e-08 & 1 & qwen & 1.78814e-07 & True & qwen \\
+ece & lower calibration error is better & appfr & H22 & 22 & 5.73247e-07 & qwen & llava & 25 & 0.110192 & 69 & 0.0105108 & 0.575385 & qwen & 0.0105108 & True & qwen \\
+ece & lower calibration error is better & appfr & H22 & 22 & 5.73247e-07 & internvl & llava & 25 & -0.295157 & 9 & 1.96695e-06 & -0.944615 & llava & 3.93391e-06 & True & llava \\
+ece & lower calibration error is better & appfr & H24 & 24 & 5.73247e-07 & qwen & internvl & 25 & 0.363999 & 0 & 5.96046e-08 & 1 & qwen & 1.78814e-07 & True & qwen \\
+ece & lower calibration error is better & appfr & H24 & 24 & 5.73247e-07 & qwen & llava & 25 & 0.113151 & 67 & 0.00882232 & 0.587692 & qwen & 0.00882232 & True & qwen \\
+ece & lower calibration error is better & appfr & H24 & 24 & 5.73247e-07 & internvl & llava & 25 & -0.289997 & 12 & 4.17233e-06 & -0.926154 & llava & 8.34465e-06 & True & llava \\
+ece & lower calibration error is better & appfr & H26 & 26 & 1.40553e-06 & qwen & internvl & 25 & 0.403228 & 0 & 5.96046e-08 & 1 & qwen & 1.78814e-07 & True & qwen \\
+ece & lower calibration error is better & appfr & H26 & 26 & 1.40553e-06 & qwen & llava & 25 & 0.101307 & 68 & 0.00963503 & 0.581538 & qwen & 0.00963503 & True & qwen \\
+ece & lower calibration error is better & appfr & H26 & 26 & 1.40553e-06 & internvl & llava & 25 & -0.311217 & 11 & 3.27826e-06 & -0.932308 & llava & 6.55651e-06 & True & llava \\
+ece & lower calibration error is better & appfr & H28 & 28 & 7.78918e-06 & qwen & internvl & 25 & 0.346232 & 0 & 5.96046e-08 & 1 & qwen & 1.78814e-07 & True & qwen \\
+ece & lower calibration error is better & appfr & H28 & 28 & 7.78918e-06 & qwen & llava & 25 & 0.112229 & 65 & 0.00737095 & 0.6 & qwen & 0.00737095 & True & qwen \\
+ece & lower calibration error is better & appfr & H28 & 28 & 7.78918e-06 & internvl & llava & 25 & -0.250219 & 18 & 1.508e-05 & -0.889231 & llava & 3.016e-05 & True & llava \\
+ece & lower calibration error is better & appfr & H30 & 30 & 1.01901e-05 & qwen & internvl & 25 & 0.352457 & 0 & 5.96046e-08 & 1 & qwen & 1.78814e-07 & True & qwen \\
+ece & lower calibration error is better & appfr & H30 & 30 & 1.01901e-05 & qwen & llava & 25 & 0.114184 & 68 & 0.00963503 & 0.581538 & qwen & 0.00963503 & True & qwen \\
+ece & lower calibration error is better & appfr & H30 & 30 & 1.01901e-05 & internvl & llava & 25 & -0.273999 & 19 & 1.82986e-05 & -0.883077 & llava & 3.65973e-05 & True & llava \\
+ece & lower calibration error is better & appfr & H32 & 32 & 1.01901e-05 & qwen & internvl & 25 & 0.292501 & 0 & 5.96046e-08 & 1 & qwen & 1.78814e-07 & True & qwen \\
+ece & lower calibration error is better & appfr & H32 & 32 & 1.01901e-05 & qwen & llava & 25 & 0.115677 & 66 & 0.0080688 & 0.593846 & qwen & 0.0080688 & True & qwen \\
+ece & lower calibration error is better & appfr & H32 & 32 & 1.01901e-05 & internvl & llava & 25 & -0.194763 & 29 & 0.000102997 & -0.821538 & llava & 0.000205994 & True & llava \\
+ece & lower calibration error is better & appod & H02 & 2 & 4.4197e-05 & qwen & internvl & 25 & 0.195582 & 2 & 1.78814e-07 & 0.987692 & qwen & 5.36442e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H02 & 2 & 4.4197e-05 & qwen & llava & 25 & 0.065974 & 144 & 0.633827 & 0.113846 & qwen & 0.633827 & False & No difference \\
+ece & lower calibration error is better & appod & H02 & 2 & 4.4197e-05 & internvl & llava & 25 & -0.1658 & 42 & 0.000631332 & -0.741538 & llava & 0.00126266 & True & llava \\
+ece & lower calibration error is better & appod & H04 & 4 & 1.6199e-05 & qwen & internvl & 25 & 0.212461 & 1 & 1.19209e-07 & 0.993846 & qwen & 3.57628e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H04 & 4 & 1.6199e-05 & qwen & llava & 25 & 0.0491448 & 141 & 0.578206 & 0.132308 & qwen & 0.578206 & False & No difference \\
+ece & lower calibration error is better & appod & H04 & 4 & 1.6199e-05 & internvl & llava & 25 & -0.11762 & 46 & 0.00102711 & -0.716923 & llava & 0.00205421 & True & llava \\
+ece & lower calibration error is better & appod & H06 & 6 & 4.48375e-06 & qwen & internvl & 25 & 0.297629 & 1 & 1.19209e-07 & 0.993846 & qwen & 3.57628e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H06 & 6 & 4.48375e-06 & qwen & llava & 25 & 0.0544619 & 126 & 0.338788 & 0.224615 & qwen & 0.338788 & False & No difference \\
+ece & lower calibration error is better & appod & H06 & 6 & 4.48375e-06 & internvl & llava & 25 & -0.299834 & 12 & 4.17233e-06 & -0.926154 & llava & 8.34465e-06 & True & llava \\
+ece & lower calibration error is better & appod & H08 & 8 & 4.48375e-06 & qwen & internvl & 25 & 0.317609 & 1 & 1.19209e-07 & 0.993846 & qwen & 3.57628e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H08 & 8 & 4.48375e-06 & qwen & llava & 25 & 0.0746537 & 139 & 0.542404 & 0.144615 & qwen & 0.542404 & False & No difference \\
+ece & lower calibration error is better & appod & H08 & 8 & 4.48375e-06 & internvl & llava & 25 & -0.319517 & 11 & 3.27826e-06 & -0.932308 & llava & 6.55651e-06 & True & llava \\
+ece & lower calibration error is better & appod & H10 & 10 & 1.25879e-05 & qwen & internvl & 25 & 0.281927 & 1 & 1.19209e-07 & 0.993846 & qwen & 3.57628e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H10 & 10 & 1.25879e-05 & qwen & llava & 25 & 0.0491885 & 140 & 0.560171 & 0.138462 & qwen & 0.560171 & False & No difference \\
+ece & lower calibration error is better & appod & H10 & 10 & 1.25879e-05 & internvl & llava & 25 & -0.243018 & 16 & 1.00732e-05 & -0.901538 & llava & 2.01464e-05 & True & llava \\
+ece & lower calibration error is better & appod & H12 & 12 & 1.21024e-05 & qwen & internvl & 25 & 0.284453 & 1 & 1.19209e-07 & 0.993846 & qwen & 3.57628e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H12 & 12 & 1.21024e-05 & qwen & llava & 25 & 0.0447129 & 139 & 0.542404 & 0.144615 & qwen & 0.542404 & False & No difference \\
+ece & lower calibration error is better & appod & H12 & 12 & 1.21024e-05 & internvl & llava & 25 & -0.268627 & 16 & 1.00732e-05 & -0.901538 & llava & 2.01464e-05 & True & llava \\
+ece & lower calibration error is better & appod & H14 & 14 & 5.11883e-05 & qwen & internvl & 25 & 0.135852 & 1 & 1.19209e-07 & 0.993846 & qwen & 3.57628e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H14 & 14 & 5.11883e-05 & qwen & llava & 25 & 0.0381896 & 135 & 0.474165 & 0.169231 & qwen & 0.474165 & False & No difference \\
+ece & lower calibration error is better & appod & H14 & 14 & 5.11883e-05 & internvl & llava & 25 & -0.101689 & 62 & 0.00557882 & -0.618462 & llava & 0.0111576 & True & llava \\
+ece & lower calibration error is better & appod & H16 & 16 & 1.6199e-05 & qwen & internvl & 25 & 0.176861 & 1 & 1.19209e-07 & 0.993846 & qwen & 3.57628e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H16 & 16 & 1.6199e-05 & qwen & llava & 25 & 0.0414814 & 141 & 0.578206 & 0.132308 & qwen & 0.578206 & False & No difference \\
+ece & lower calibration error is better & appod & H16 & 16 & 1.6199e-05 & internvl & llava & 25 & -0.0853022 & 50 & 0.00162536 & -0.692308 & llava & 0.00325072 & True & llava \\
+ece & lower calibration error is better & appod & H18 & 18 & 1.25879e-05 & qwen & internvl & 25 & 0.28123 & 1 & 1.19209e-07 & 0.993846 & qwen & 3.57628e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H18 & 18 & 1.25879e-05 & qwen & llava & 25 & 0.0109807 & 147 & 0.691519 & 0.0953846 & qwen & 0.691519 & False & No difference \\
+ece & lower calibration error is better & appod & H18 & 18 & 1.25879e-05 & internvl & llava & 25 & -0.229652 & 13 & 5.24521e-06 & -0.92 & llava & 1.04904e-05 & True & llava \\
+ece & lower calibration error is better & appod & H20 & 20 & 1.21024e-05 & qwen & internvl & 25 & 0.258192 & 1 & 1.19209e-07 & 0.993846 & qwen & 3.57628e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H20 & 20 & 1.21024e-05 & qwen & llava & 25 & 0.0296195 & 149 & 0.730989 & 0.0830769 & qwen & 0.730989 & False & No difference \\
+ece & lower calibration error is better & appod & H20 & 20 & 1.21024e-05 & internvl & llava & 25 & -0.249612 & 16 & 1.00732e-05 & -0.901538 & llava & 2.01464e-05 & True & llava \\
+ece & lower calibration error is better & appod & H22 & 22 & 1.25879e-05 & qwen & internvl & 25 & 0.215424 & 1 & 1.19209e-07 & 0.993846 & qwen & 3.57628e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H22 & 22 & 1.25879e-05 & qwen & llava & 25 & 0.0263387 & 153 & 0.81193 & 0.0584615 & qwen & 0.81193 & False & No difference \\
+ece & lower calibration error is better & appod & H22 & 22 & 1.25879e-05 & internvl & llava & 25 & -0.231834 & 17 & 1.23382e-05 & -0.895385 & llava & 2.46763e-05 & True & llava \\
+ece & lower calibration error is better & appod & H24 & 24 & 2.90984e-06 & qwen & internvl & 25 & 0.246885 & 0 & 5.96046e-08 & 1 & qwen & 1.78814e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H24 & 24 & 2.90984e-06 & qwen & llava & 25 & 0.0224936 & 145 & 0.652841 & 0.107692 & qwen & 0.652841 & False & No difference \\
+ece & lower calibration error is better & appod & H24 & 24 & 2.90984e-06 & internvl & llava & 25 & -0.256886 & 17 & 1.23382e-05 & -0.895385 & llava & 2.46763e-05 & True & llava \\
+ece & lower calibration error is better & appod & H26 & 26 & 3.91009e-06 & qwen & internvl & 25 & 0.298284 & 1 & 1.19209e-07 & 0.993846 & qwen & 3.57628e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H26 & 26 & 3.91009e-06 & qwen & llava & 25 & 0.0569495 & 137 & 0.507704 & 0.156923 & qwen & 0.507704 & False & No difference \\
+ece & lower calibration error is better & appod & H26 & 26 & 3.91009e-06 & internvl & llava & 25 & -0.289474 & 10 & 2.563e-06 & -0.938462 & llava & 5.126e-06 & True & llava \\
+ece & lower calibration error is better & appod & H28 & 28 & 3.91009e-06 & qwen & internvl & 25 & 0.305977 & 1 & 1.19209e-07 & 0.993846 & qwen & 3.57628e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H28 & 28 & 3.91009e-06 & qwen & llava & 25 & 0.0483451 & 140 & 0.560171 & 0.138462 & qwen & 0.560171 & False & No difference \\
+ece & lower calibration error is better & appod & H28 & 28 & 3.91009e-06 & internvl & llava & 25 & -0.291303 & 10 & 2.563e-06 & -0.938462 & llava & 5.126e-06 & True & llava \\
+ece & lower calibration error is better & appod & H30 & 30 & 1.3562e-05 & qwen & internvl & 25 & 0.26607 & 2 & 1.78814e-07 & 0.987692 & qwen & 5.36442e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H30 & 30 & 1.3562e-05 & qwen & llava & 25 & 0.0539668 & 126 & 0.338788 & 0.224615 & qwen & 0.338788 & False & No difference \\
+ece & lower calibration error is better & appod & H30 & 30 & 1.3562e-05 & internvl & llava & 25 & -0.227678 & 21 & 2.66433e-05 & -0.870769 & llava & 5.32866e-05 & True & llava \\
+ece & lower calibration error is better & appod & H32 & 32 & 1.6199e-05 & qwen & internvl & 25 & 0.274554 & 3 & 2.98023e-07 & 0.981538 & qwen & 8.9407e-07 & True & qwen \\
+ece & lower calibration error is better & appod & H32 & 32 & 1.6199e-05 & qwen & llava & 25 & 0.0525337 & 133 & 0.441837 & 0.181538 & qwen & 0.441837 & False & No difference \\
+ece & lower calibration error is better & appod & H32 & 32 & 1.6199e-05 & internvl & llava & 25 & -0.22465 & 16 & 1.00732e-05 & -0.901538 & llava & 2.01464e-05 & True & llava \\
+mce & lower calibration error is better & appfr & H02 & 2 & 0.00532633 & qwen & internvl & 25 & -0.0165197 & 145 & 0.652841 & 0.107692 & qwen & 0.652841 & False & No difference \\
+mce & lower calibration error is better & appfr & H02 & 2 & 0.00532633 & qwen & llava & 25 & 0.318476 & 16 & 1.00732e-05 & 0.901538 & qwen & 3.02196e-05 & True & qwen \\
+mce & lower calibration error is better & appfr & H02 & 2 & 0.00532633 & internvl & llava & 25 & 0.301656 & 52 & 0.00202513 & 0.68 & internvl & 0.00405025 & True & internvl \\
+mce & lower calibration error is better & appfr & H18 & 18 & 0.0295372 & qwen & internvl & 25 & 0.162988 & 56 & 0.00308788 & 0.655385 & qwen & 0.00926363 & True & qwen \\
+mce & lower calibration error is better & appfr & H18 & 18 & 0.0295372 & qwen & llava & 25 & 0.0277179 & 131 & 0.410765 & 0.193846 & qwen & 0.410765 & False & No difference \\
+mce & lower calibration error is better & appfr & H18 & 18 & 0.0295372 & internvl & llava & 25 & -0.125609 & 78 & 0.0219083 & -0.52 & llava & 0.0438167 & True & llava \\
+mce & lower calibration error is better & appfr & H24 & 24 & 0.0489275 & qwen & internvl & 25 & 0.156754 & 44 & 0.00080812 & 0.729231 & qwen & 0.00242436 & True & qwen \\
+mce & lower calibration error is better & appfr & H24 & 24 & 0.0489275 & qwen & llava & 25 & 0.046084 & 96 & 0.0754796 & 0.409231 & qwen & 0.150959 & False & No difference \\
+mce & lower calibration error is better & appfr & H24 & 24 & 0.0489275 & internvl & llava & 25 & -0.0558129 & 104 & 0.119934 & -0.36 & llava & 0.150959 & False & No difference \\
+mce & lower calibration error is better & appfr & H26 & 26 & 0.000169791 & qwen & internvl & 25 & 0.353009 & 21 & 2.66433e-05 & 0.870769 & qwen & 7.99298e-05 & True & qwen \\
+mce & lower calibration error is better & appfr & H26 & 26 & 0.000169791 & qwen & llava & 25 & 0.0458421 & 102 & 0.107315 & 0.372308 & qwen & 0.107315 & False & No difference \\
+mce & lower calibration error is better & appfr & H26 & 26 & 0.000169791 & internvl & llava & 25 & -0.328344 & 30 & 0.000120223 & -0.815385 & llava & 0.000240445 & True & llava \\
+mce & lower calibration error is better & appfr & H28 & 28 & 0.000135382 & qwen & internvl & 25 & 0.288713 & 9 & 1.96695e-06 & 0.944615 & qwen & 5.90086e-06 & True & qwen \\
+mce & lower calibration error is better & appfr & H28 & 28 & 0.000135382 & qwen & llava & 25 & 0.0650228 & 74 & 0.015973 & 0.544615 & qwen & 0.015973 & True & qwen \\
+mce & lower calibration error is better & appfr & H28 & 28 & 0.000135382 & internvl & llava & 25 & -0.171724 & 39 & 0.00042969 & -0.76 & llava & 0.00085938 & True & llava \\
+mce & lower calibration error is better & appfr & H30 & 30 & 0.00142291 & qwen & internvl & 25 & 0.382635 & 14 & 6.55651e-06 & 0.913846 & qwen & 1.96695e-05 & True & qwen \\
+mce & lower calibration error is better & appfr & H30 & 30 & 0.00142291 & qwen & llava & 25 & 0.0510088 & 94 & 0.0667016 & 0.421538 & qwen & 0.0667016 & False & No difference \\
+mce & lower calibration error is better & appfr & H30 & 30 & 0.00142291 & internvl & llava & 25 & -0.300584 & 22 & 3.19481e-05 & -0.864615 & llava & 6.38962e-05 & True & llava \\
+mce & lower calibration error is better & appfr & H32 & 32 & 0.000135382 & qwen & internvl & 25 & 0.378548 & 24 & 4.54187e-05 & 0.852308 & qwen & 0.000136256 & True & qwen \\
+mce & lower calibration error is better & appfr & H32 & 32 & 0.000135382 & qwen & llava & 25 & 0.0421982 & 100 & 0.0957335 & 0.384615 & qwen & 0.0957335 & False & No difference \\
+mce & lower calibration error is better & appfr & H32 & 32 & 0.000135382 & internvl & llava & 25 & -0.221794 & 27 & 7.49826e-05 & -0.833846 & llava & 0.000149965 & True & llava \\
+mce & lower calibration error is better & appod & H02 & 2 & 0.0295372 & qwen & internvl & 25 & 0.0878613 & 94 & 0.0667016 & 0.421538 & qwen & 0.0667016 & False & No difference \\
+mce & lower calibration error is better & appod & H02 & 2 & 0.0295372 & qwen & llava & 25 & 0.345517 & 42 & 0.000631332 & 0.741538 & qwen & 0.001894 & True & qwen \\
+mce & lower calibration error is better & appod & H02 & 2 & 0.0295372 & internvl & llava & 25 & 0.254743 & 51 & 0.00181568 & 0.686154 & internvl & 0.00363135 & True & internvl \\
+mce & lower calibration error is better & appod & H06 & 6 & 0.0295372 & qwen & internvl & 25 & 0.239874 & 42 & 0.000631332 & 0.741538 & qwen & 0.00126266 & True & qwen \\
+mce & lower calibration error is better & appod & H06 & 6 & 0.0295372 & qwen & llava & 25 & 0.300876 & 33 & 0.000187874 & 0.796923 & qwen & 0.000563622 & True & qwen \\
+mce & lower calibration error is better & appod & H06 & 6 & 0.0295372 & internvl & llava & 25 & -0.000173261 & 138 & 0.524913 & 0.150769 & internvl & 0.524913 & False & No difference \\
+mce & lower calibration error is better & appod & H08 & 8 & 0.0149814 & qwen & internvl & 25 & 0.196641 & 26 & 6.36578e-05 & 0.84 & qwen & 0.000190973 & True & qwen \\
+mce & lower calibration error is better & appod & H08 & 8 & 0.0149814 & qwen & llava & 25 & 0.170036 & 40 & 0.000489473 & 0.753846 & qwen & 0.000978947 & True & qwen \\
+mce & lower calibration error is better & appod & H08 & 8 & 0.0149814 & internvl & llava & 25 & -0.011989 & 151 & 0.771159 & 0.0707692 & internvl & 0.771159 & False & No difference \\
+mce & lower calibration error is better & appod & H10 & 10 & 0.00692962 & qwen & internvl & 25 & 0.23958 & 13 & 5.24521e-06 & 0.92 & qwen & 1.57356e-05 & True & qwen \\
+mce & lower calibration error is better & appod & H10 & 10 & 0.00692962 & qwen & llava & 25 & 0.201924 & 36 & 0.000287056 & 0.778462 & qwen & 0.000574112 & True & qwen \\
+mce & lower calibration error is better & appod & H10 & 10 & 0.00692962 & internvl & llava & 25 & 0.0157877 & 130 & 0.395711 & 0.2 & internvl & 0.395711 & False & No difference \\
+mce & lower calibration error is better & appod & H14 & 14 & 0.0285787 & qwen & internvl & 25 & 0.218994 & 69 & 0.0105108 & 0.575385 & qwen & 0.0210216 & True & qwen \\
+mce & lower calibration error is better & appod & H14 & 14 & 0.0285787 & qwen & llava & 25 & 0.129799 & 37 & 0.000329077 & 0.772308 & qwen & 0.000987232 & True & qwen \\
+mce & lower calibration error is better & appod & H14 & 14 & 0.0285787 & internvl & llava & 25 & 0.0424901 & 96 & 0.0754796 & 0.409231 & internvl & 0.0754796 & False & No difference \\
+mce & lower calibration error is better & appod & H18 & 18 & 0.0253481 & qwen & internvl & 25 & 0.244316 & 53 & 0.00225526 & 0.673846 & qwen & 0.00451052 & True & qwen \\
+mce & lower calibration error is better & appod & H18 & 18 & 0.0253481 & qwen & llava & 25 & 0.158239 & 45 & 0.000911891 & 0.723077 & qwen & 0.00273567 & True & qwen \\
+mce & lower calibration error is better & appod & H18 & 18 & 0.0253481 & internvl & llava & 25 & 0.0379985 & 134 & 0.457846 & 0.175385 & internvl & 0.457846 & False & No difference \\
+mce & lower calibration error is better & appod & H20 & 20 & 0.0373195 & qwen & internvl & 25 & 0.174037 & 52 & 0.00202513 & 0.68 & qwen & 0.00607538 & True & qwen \\
+mce & lower calibration error is better & appod & H20 & 20 & 0.0373195 & qwen & llava & 25 & 0.102597 & 61 & 0.00507164 & 0.624615 & qwen & 0.0101433 & True & qwen \\
+mce & lower calibration error is better & appod & H20 & 20 & 0.0373195 & internvl & llava & 25 & -0.0692819 & 162 & 1 & 0.00307692 & internvl & 1 & False & No difference \\
+mce & lower calibration error is better & appod & H22 & 22 & 0.00515694 & qwen & internvl & 25 & 0.189212 & 37 & 0.000329077 & 0.772308 & qwen & 0.000987232 & True & qwen \\
+mce & lower calibration error is better & appod & H22 & 22 & 0.00515694 & qwen & llava & 25 & 0.08524 & 54 & 0.00250793 & 0.667692 & qwen & 0.00501585 & True & qwen \\
+mce & lower calibration error is better & appod & H22 & 22 & 0.00515694 & internvl & llava & 25 & -0.0679899 & 158 & 0.915803 & -0.0276923 & llava & 0.915803 & False & No difference \\
+mce & lower calibration error is better & appod & H24 & 24 & 0.0295372 & qwen & internvl & 25 & 0.181098 & 48 & 0.00129634 & 0.704615 & qwen & 0.00388902 & True & qwen \\
+mce & lower calibration error is better & appod & H24 & 24 & 0.0295372 & qwen & llava & 25 & 0.0597682 & 79 & 0.0236499 & 0.513846 & qwen & 0.0472999 & True & qwen \\
+mce & lower calibration error is better & appod & H24 & 24 & 0.0295372 & internvl & llava & 25 & -0.121997 & 150 & 0.750993 & -0.0769231 & llava & 0.750993 & False & No difference \\
+mce & lower calibration error is better & appod & H26 & 26 & 0.0295372 & qwen & internvl & 25 & 0.206617 & 27 & 7.49826e-05 & 0.833846 & qwen & 0.000224948 & True & qwen \\
+mce & lower calibration error is better & appod & H26 & 26 & 0.0295372 & qwen & llava & 25 & 0.0495689 & 100 & 0.0957335 & 0.384615 & qwen & 0.0957335 & False & No difference \\
+mce & lower calibration error is better & appod & H26 & 26 & 0.0295372 & internvl & llava & 25 & -0.180781 & 84 & 0.0341738 & -0.483077 & llava & 0.0683476 & False & No difference \\
+mce & lower calibration error is better & appod & H28 & 28 & 0.0295372 & qwen & internvl & 25 & 0.217164 & 42 & 0.000631332 & 0.741538 & qwen & 0.001894 & True & qwen \\
+mce & lower calibration error is better & appod & H28 & 28 & 0.0295372 & qwen & llava & 25 & 0.122879 & 80 & 0.0255051 & 0.507692 & qwen & 0.0510101 & False & No difference \\
+mce & lower calibration error is better & appod & H28 & 28 & 0.0295372 & internvl & llava & 25 & -0.102503 & 111 & 0.172959 & -0.316923 & llava & 0.172959 & False & No difference \\
+\end{longtable}

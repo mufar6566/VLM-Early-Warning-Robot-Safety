@@ -1,0 +1,16 @@
+\begin{table}[tbp]
+\caption{Detailed Macro-F1 summary.}
+\label{tab:rq3-macro-f1-summary-detailed}
+\begin{tabular}{lllrrrrrlrrrrlrlllll}
+\toprule
+metric & model & approach & bags & histories & friedman\_chi2 & raw\_p & holm\_p & holm\_p\_report & kendalls\_w & omnibus\_significant\_holm & pairwise\_tests\_performed & significant\_pairwise\_tests & significant\_pairs & histories\_with\_significant\_wins & strict\_significant\_winner & first\_better & second\_better & third\_better & all\_significant\_winning\_histories \\
+\midrule
+macro\_f1 & qwen & appfr & 25 & 16 & 22.1233 & 0.104611 & 0.418442 & 0.418 & 0.0589955 & False & 0 & 0 & Not performed & 0 & — & — & — & — & — \\
+macro\_f1 & qwen & appod & 25 & 16 & 19.353 & 0.198183 & 0.594549 & 0.595 & 0.0516079 & False & 0 & 0 & Not performed & 0 & — & — & — & — & — \\
+macro\_f1 & internvl & appfr & 25 & 16 & 143.629 & 4.41789e-23 & 2.65073e-22 & <0.001 & 0.38301 & True & 120 & 33 & 33/120 & 6 & — & H02 (12) & H14 (7) & H06 (5) & H02 (12); H14 (7); H06 (5); H04 (4); H16 (3); H08 (2) \\
+macro\_f1 & internvl & appod & 25 & 16 & 82.9766 & 1.98646e-11 & 9.93231e-11 & <0.001 & 0.221271 & True & 120 & 20 & 20/120 & 11 & — & H02, H04, H14, H16, H18, H20, H22, H24, H30 (2 each) & H10, H12 (1 each) & — & H02, H04, H14, H16, H18, H20, H22, H24, H30 (2 each); H10, H12 (1 each) \\
+macro\_f1 & llava & appfr & 25 & 16 & 17.0443 & 0.316221 & 0.624865 & 0.625 & 0.0454515 & False & 0 & 0 & Not performed & 0 & — & — & — & — & — \\
+macro\_f1 & llava & appod & 25 & 16 & 17.1083 & 0.312432 & 0.624865 & 0.625 & 0.0456221 & False & 0 & 0 & Not performed & 0 & — & — & — & — & — \\
+\bottomrule
+\end{tabular}
+\end{table}

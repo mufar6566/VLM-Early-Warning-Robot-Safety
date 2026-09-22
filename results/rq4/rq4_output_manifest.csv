@@ -1,0 +1,29 @@
+table,csv,latex,format
+rq4_actionable_by_case_study_paper_table,results/rq4/rq4_actionable_by_case_study_paper_table.csv,results/rq4/latex/rq4_actionable_by_case_study_paper_table.tex,CSV + LaTeX
+rq4_best_histories,results/rq4/rq4_best_histories.csv,results/rq4/latex/rq4_best_histories.tex,CSV + LaTeX
+rq4_case_balanced_summary,results/rq4/rq4_case_balanced_summary.csv,results/rq4/latex/rq4_case_balanced_summary.tex,CSV + LaTeX
+rq4_case_study_outcome_summary,results/rq4/rq4_case_study_outcome_summary.csv,results/rq4/latex/rq4_case_study_outcome_summary.tex,CSV + LaTeX
+rq4_case_study_warning_profile,results/rq4/rq4_case_study_warning_profile.csv,results/rq4/latex/rq4_case_study_warning_profile.tex,CSV + LaTeX
+rq4_complete_warning_profile,results/rq4/rq4_complete_warning_profile.csv,results/rq4/latex/rq4_complete_warning_profile.tex,CSV + LaTeX
+rq4_complete_warning_profile_numeric,results/rq4/rq4_complete_warning_profile_numeric.csv,results/rq4/latex/rq4_complete_warning_profile_numeric.tex,CSV + LaTeX
+rq4_configuration_validation,results/rq4/rq4_configuration_validation.csv,results/rq4/latex/rq4_configuration_validation.tex,CSV + LaTeX
+rq4_event_distribution,results/rq4/rq4_event_distribution.csv,results/rq4/latex/rq4_event_distribution.tex,CSV + LaTeX
+rq4_internvl_actionable_paper_table,results/rq4/rq4_internvl_actionable_paper_table.csv,results/rq4/latex/rq4_internvl_actionable_paper_table.tex,CSV + LaTeX
+rq4_internvl_too_early_paper_table,results/rq4/rq4_internvl_too_early_paper_table.csv,results/rq4/latex/rq4_internvl_too_early_paper_table.tex,CSV + LaTeX
+rq4_interval_dependent,results/rq4/rq4_interval_dependent.csv,results/rq4/latex/rq4_interval_dependent.tex,CSV + LaTeX
+rq4_interval_independent,results/rq4/rq4_interval_independent.csv,results/rq4/latex/rq4_interval_independent.tex,CSV + LaTeX
+rq4_llava_actionable_paper_table,results/rq4/rq4_llava_actionable_paper_table.csv,results/rq4/latex/rq4_llava_actionable_paper_table.tex,CSV + LaTeX
+rq4_llava_too_early_paper_table,results/rq4/rq4_llava_too_early_paper_table.csv,results/rq4/latex/rq4_llava_too_early_paper_table.tex,CSV + LaTeX
+rq4_metadata_counts,results/rq4/rq4_metadata_counts.csv,results/rq4/latex/rq4_metadata_counts.tex,CSV + LaTeX
+rq4_missed_paper_table,results/rq4/rq4_missed_paper_table.csv,results/rq4/latex/rq4_missed_paper_table.tex,CSV + LaTeX
+rq4_output_manifest,results/rq4/rq4_output_manifest.csv,results/rq4/latex/rq4_output_manifest.tex,CSV + LaTeX
+rq4_overall_effect_of_a,results/rq4/rq4_overall_effect_of_a.csv,results/rq4/latex/rq4_overall_effect_of_a.tex,CSV + LaTeX
+rq4_pooled_outcome_summary,results/rq4/rq4_pooled_outcome_summary.csv,results/rq4/latex/rq4_pooled_outcome_summary.tex,CSV + LaTeX
+rq4_qwen_actionable_paper_table,results/rq4/rq4_qwen_actionable_paper_table.csv,results/rq4/latex/rq4_qwen_actionable_paper_table.tex,CSV + LaTeX
+rq4_qwen_too_early_paper_table,results/rq4/rq4_qwen_too_early_paper_table.csv,results/rq4/latex/rq4_qwen_too_early_paper_table.tex,CSV + LaTeX
+rq4_too_late_paper_table,results/rq4/rq4_too_late_paper_table.csv,results/rq4/latex/rq4_too_late_paper_table.tex,CSV + LaTeX
+rq4_unsafe_event_inventory,results/rq4/rq4_unsafe_event_inventory.csv,results/rq4/latex/rq4_unsafe_event_inventory.tex,CSV + LaTeX
+rq4_unsafe_events_by_bag,results/rq4/rq4_unsafe_events_by_bag.csv,results/rq4/latex/rq4_unsafe_events_by_bag.tex,CSV + LaTeX
+rq4_metadata_index,results/rq4/rq4_metadata_index.csv,not generated for row-level/index extract,CSV only
+rq4_event_results,results/rq4/rq4_event_results.csv,not generated for row-level/index extract,CSV only
+rq4_all_intervals,results/rq4/rq4_all_intervals.csv,not generated for row-level/index extract,CSV only

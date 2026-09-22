@@ -1,0 +1,74 @@
+\begin{table}[tbp]
+\caption{RQ1b Friedman model comparisons.}
+\label{tab:rq1b_model_friedman}
+\begin{tabular}{llrlrrrrrr}
+\toprule
+approach & history & history\_frames & metric & n\_blocks & friedman\_chi2 & raw\_p & kendalls\_w & holm\_p & significant \\
+\midrule
+appfr & H02 & 2 & accuracy & 25 & 12.4800 & 0.0019 & 0.2496 & 0.0019 & True \\
+appfr & H02 & 2 & macro\_f1 & 25 & 9.3600 & 0.0093 & 0.1872 & 0.0371 & True \\
+appfr & H04 & 4 & accuracy & 25 & 17.8400 & 0.0001 & 0.3568 & 0.0004 & True \\
+appfr & H04 & 4 & macro\_f1 & 25 & 1.0400 & 0.5945 & 0.0208 & 1.0000 & False \\
+appfr & H06 & 6 & accuracy & 25 & 26.1600 & 0.0000 & 0.5232 & 0.0000 & True \\
+appfr & H06 & 6 & macro\_f1 & 25 & 11.8400 & 0.0027 & 0.2368 & 0.0214 & True \\
+appfr & H08 & 8 & accuracy & 25 & 25.0400 & 0.0000 & 0.5008 & 0.0000 & True \\
+appfr & H08 & 8 & macro\_f1 & 25 & 10.1600 & 0.0062 & 0.2032 & 0.0311 & True \\
+appfr & H10 & 10 & accuracy & 25 & 19.2800 & 0.0001 & 0.3856 & 0.0003 & True \\
+appfr & H10 & 10 & macro\_f1 & 25 & 13.5200 & 0.0012 & 0.2704 & 0.0139 & True \\
+appfr & H12 & 12 & accuracy & 25 & 26.1600 & 0.0000 & 0.5232 & 0.0000 & True \\
+appfr & H12 & 12 & macro\_f1 & 25 & 15.3600 & 0.0005 & 0.3072 & 0.0067 & True \\
+appfr & H14 & 14 & accuracy & 25 & 17.5200 & 0.0002 & 0.3504 & 0.0004 & True \\
+appfr & H14 & 14 & macro\_f1 & 25 & 2.1600 & 0.3396 & 0.0432 & 1.0000 & False \\
+appfr & H16 & 16 & accuracy & 25 & 19.5200 & 0.0001 & 0.3904 & 0.0003 & True \\
+appfr & H16 & 16 & macro\_f1 & 25 & 1.6800 & 0.4317 & 0.0336 & 1.0000 & False \\
+appfr & H18 & 18 & accuracy & 25 & 28.4242 & 0.0000 & 0.5685 & 0.0000 & True \\
+appfr & H18 & 18 & macro\_f1 & 25 & 13.6800 & 0.0011 & 0.2736 & 0.0139 & True \\
+appfr & H20 & 20 & accuracy & 25 & 29.1200 & 0.0000 & 0.5824 & 0.0000 & True \\
+appfr & H20 & 20 & macro\_f1 & 25 & 15.6800 & 0.0004 & 0.3136 & 0.0063 & True \\
+appfr & H22 & 22 & accuracy & 25 & 23.3600 & 0.0000 & 0.4672 & 0.0001 & True \\
+appfr & H22 & 22 & macro\_f1 & 25 & 11.8400 & 0.0027 & 0.2368 & 0.0214 & True \\
+appfr & H24 & 24 & accuracy & 25 & 27.4400 & 0.0000 & 0.5488 & 0.0000 & True \\
+appfr & H24 & 24 & macro\_f1 & 25 & 12.0800 & 0.0024 & 0.2416 & 0.0214 & True \\
+appfr & H26 & 26 & accuracy & 25 & 25.9200 & 0.0000 & 0.5184 & 0.0000 & True \\
+appfr & H26 & 26 & macro\_f1 & 25 & 12.4800 & 0.0019 & 0.2496 & 0.0195 & True \\
+appfr & H28 & 28 & accuracy & 25 & 27.4400 & 0.0000 & 0.5488 & 0.0000 & True \\
+appfr & H28 & 28 & macro\_f1 & 25 & 12.0800 & 0.0024 & 0.2416 & 0.0214 & True \\
+appfr & H30 & 30 & accuracy & 25 & 23.1200 & 0.0000 & 0.4624 & 0.0001 & True \\
+appfr & H30 & 30 & macro\_f1 & 25 & 15.4400 & 0.0004 & 0.3088 & 0.0067 & True \\
+appfr & H32 & 32 & accuracy & 25 & 24.5600 & 0.0000 & 0.4912 & 0.0000 & True \\
+appfr & H32 & 32 & macro\_f1 & 25 & 13.5200 & 0.0012 & 0.2704 & 0.0139 & True \\
+appod & H02 & 2 & accuracy & 25 & 21.6800 & 0.0000 & 0.4336 & 0.0002 & True \\
+appod & H02 & 2 & macro\_f1 & 25 & 16.0800 & 0.0003 & 0.3216 & 0.0019 & True \\
+appod & H04 & 4 & accuracy & 25 & 14.0000 & 0.0009 & 0.2800 & 0.0014 & True \\
+appod & H04 & 4 & macro\_f1 & 25 & 11.5200 & 0.0032 & 0.2304 & 0.0095 & True \\
+appod & H06 & 6 & accuracy & 25 & 31.8990 & 0.0000 & 0.6380 & 0.0000 & True \\
+appod & H06 & 6 & macro\_f1 & 25 & 27.9200 & 0.0000 & 0.5584 & 0.0000 & True \\
+appod & H08 & 8 & accuracy & 25 & 28.8800 & 0.0000 & 0.5776 & 0.0000 & True \\
+appod & H08 & 8 & macro\_f1 & 25 & 26.8800 & 0.0000 & 0.5376 & 0.0000 & True \\
+appod & H10 & 10 & accuracy & 25 & 27.4400 & 0.0000 & 0.5488 & 0.0000 & True \\
+appod & H10 & 10 & macro\_f1 & 25 & 27.4400 & 0.0000 & 0.5488 & 0.0000 & True \\
+appod & H12 & 12 & accuracy & 25 & 21.8400 & 0.0000 & 0.4368 & 0.0002 & True \\
+appod & H12 & 12 & macro\_f1 & 25 & 19.2800 & 0.0001 & 0.3856 & 0.0007 & True \\
+appod & H14 & 14 & accuracy & 25 & 21.6800 & 0.0000 & 0.4336 & 0.0002 & True \\
+appod & H14 & 14 & macro\_f1 & 25 & 10.6400 & 0.0049 & 0.2128 & 0.0095 & True \\
+appod & H16 & 16 & accuracy & 25 & 14.4800 & 0.0007 & 0.2896 & 0.0014 & True \\
+appod & H16 & 16 & macro\_f1 & 25 & 16.8800 & 0.0002 & 0.3376 & 0.0019 & True \\
+appod & H18 & 18 & accuracy & 25 & 23.3600 & 0.0000 & 0.4672 & 0.0001 & True \\
+appod & H18 & 18 & macro\_f1 & 25 & 16.8800 & 0.0002 & 0.3376 & 0.0019 & True \\
+appod & H20 & 20 & accuracy & 25 & 20.7475 & 0.0000 & 0.4149 & 0.0002 & True \\
+appod & H20 & 20 & macro\_f1 & 25 & 20.4800 & 0.0000 & 0.4096 & 0.0005 & True \\
+appod & H22 & 22 & accuracy & 25 & 17.5960 & 0.0002 & 0.3519 & 0.0005 & True \\
+appod & H22 & 22 & macro\_f1 & 25 & 11.5200 & 0.0032 & 0.2304 & 0.0095 & True \\
+appod & H24 & 24 & accuracy & 25 & 23.3600 & 0.0000 & 0.4672 & 0.0001 & True \\
+appod & H24 & 24 & macro\_f1 & 25 & 13.5200 & 0.0012 & 0.2704 & 0.0058 & True \\
+appod & H26 & 26 & accuracy & 25 & 21.8400 & 0.0000 & 0.4368 & 0.0002 & True \\
+appod & H26 & 26 & macro\_f1 & 25 & 20.4800 & 0.0000 & 0.4096 & 0.0005 & True \\
+appod & H28 & 28 & accuracy & 25 & 21.8400 & 0.0000 & 0.4368 & 0.0002 & True \\
+appod & H28 & 28 & macro\_f1 & 25 & 18.2400 & 0.0001 & 0.3648 & 0.0011 & True \\
+appod & H30 & 30 & accuracy & 25 & 19.7600 & 0.0001 & 0.3952 & 0.0002 & True \\
+appod & H30 & 30 & macro\_f1 & 25 & 12.4800 & 0.0019 & 0.2496 & 0.0078 & True \\
+appod & H32 & 32 & accuracy & 25 & 25.8384 & 0.0000 & 0.5168 & 0.0000 & True \\
+appod & H32 & 32 & macro\_f1 & 25 & 16.8800 & 0.0002 & 0.3376 & 0.0019 & True \\
+\bottomrule
+\end{tabular}
+\end{table}

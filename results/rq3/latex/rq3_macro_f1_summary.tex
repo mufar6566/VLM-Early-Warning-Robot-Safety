@@ -1,0 +1,16 @@
+\begin{table}[tbp]
+\caption{Publication Macro-F1 summary.}
+\label{tab:rq3-macro-f1-summary}
+\begin{tabular}{lllrrrlrllllll}
+\toprule
+Metric & Model & Approach & Bags & Histories & Friedman chi2 & Holm p-value & Kendall's W & Significant pairs & Strict winner & First better & Second better & Third better & All significant winning histories \\
+\midrule
+Macro-F1 & Qwen & AppFr & 25 & 16 & 22.123 & 0.418 & 0.059 & Not performed & — & — & — & — & — \\
+Macro-F1 & Qwen & AppOd & 25 & 16 & 19.353 & 0.595 & 0.052 & Not performed & — & — & — & — & — \\
+Macro-F1 & InternVL & AppFr & 25 & 16 & 143.629 & <0.001 & 0.383 & 33/120 & — & H02 (12) & H14 (7) & H06 (5) & H02 (12); H14 (7); H06 (5); H04 (4); H16 (3); H08 (2) \\
+Macro-F1 & InternVL & AppOd & 25 & 16 & 82.977 & <0.001 & 0.221 & 20/120 & — & H02, H04, H14, H16, H18, H20, H22, H24, H30 (2 each) & H10, H12 (1 each) & — & H02, H04, H14, H16, H18, H20, H22, H24, H30 (2 each); H10, H12 (1 each) \\
+Macro-F1 & LLaVA & AppFr & 25 & 16 & 17.044 & 0.625 & 0.045 & Not performed & — & — & — & — & — \\
+Macro-F1 & LLaVA & AppOd & 25 & 16 & 17.108 & 0.625 & 0.046 & Not performed & — & — & — & — & — \\
+\bottomrule
+\end{tabular}
+\end{table}

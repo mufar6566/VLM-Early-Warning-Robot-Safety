@@ -1,0 +1,4 @@
+case_study,rows,bags,missing_speed_before,missing_speed_after,output
+huron,16862,15,0,0,case_studies/huron/metadata/rq4_frame_metadata.csv
+pal,9249,3,0,0,case_studies/pal/metadata/rq4_frame_metadata.csv
+crowdbot,8801,7,0,0,case_studies/crowdbot/metadata/rq4_frame_metadata.csv

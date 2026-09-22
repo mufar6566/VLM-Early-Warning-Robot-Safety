@@ -1,0 +1,28 @@
+\begin{table}[tbp]
+\caption{RQ2-C gated global pairwise Wilcoxon-Holm comparisons.}
+\label{tab:rq2c-global-pairwise-wilcoxon}
+\begin{tabular}{llrllrrrrrlrrl}
+\toprule
+metric & direction & friedman\_holm\_p & model\_1 & model\_2 & n\_pairs & median\_oriented\_difference\_model1\_minus\_model2 & wilcoxon\_statistic & raw\_p & rank\_biserial\_model1\_minus\_model2 & descriptive\_better\_model & holm\_p & significant\_holm & significant\_better\_model \\
+\midrule
+msp & higher positive correctness correlation is better & 2.28408e-116 & qwen & internvl & 655 & 0.320243 & 10381 & 3.02478e-89 & 0.903361 & qwen & 9.07434e-89 & True & qwen \\
+msp & higher positive correctness correlation is better & 2.28408e-116 & qwen & llava & 655 & 0.09359 & 40673 & 3.49187e-43 & 0.621365 & qwen & 3.49187e-43 & True & qwen \\
+msp & higher positive correctness correlation is better & 2.28408e-116 & internvl & llava & 655 & -0.198241 & 23681 & 6.14401e-67 & -0.779548 & llava & 1.2288e-66 & True & llava \\
+pcs & higher positive correctness correlation is better & 2.97015e-114 & qwen & internvl & 655 & 0.319164 & 11007 & 4.01671e-88 & 0.897533 & qwen & 1.20501e-87 & True & qwen \\
+pcs & higher positive correctness correlation is better & 2.97015e-114 & qwen & llava & 655 & 0.0932358 & 40847 & 5.73847e-43 & 0.619745 & qwen & 5.73847e-43 & True & qwen \\
+pcs & higher positive correctness correlation is better & 2.97015e-114 & internvl & llava & 655 & -0.191362 & 24587 & 1.54649e-65 & -0.771113 & llava & 3.09297e-65 & True & llava \\
+deep\_gini & more negative correctness correlation is better & 4.26738e-121 & qwen & internvl & 655 & 0.325595 & 9367 & 4.42604e-91 & 0.9128 & qwen & 1.32781e-90 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & 4.26738e-121 & qwen & llava & 655 & 0.100657 & 37874 & 9.90941e-47 & 0.647421 & qwen & 9.90941e-47 & True & qwen \\
+deep\_gini & more negative correctness correlation is better & 4.26738e-121 & internvl & llava & 655 & -0.171408 & 23388 & 2.14864e-67 & -0.782275 & llava & 4.29728e-67 & True & llava \\
+entropy & more negative correctness correlation is better & 1.80314e-124 & qwen & internvl & 655 & 0.346863 & 8078 & 1.93361e-93 & 0.9248 & qwen & 5.80083e-93 & True & qwen \\
+entropy & more negative correctness correlation is better & 1.80314e-124 & qwen & llava & 655 & 0.0622872 & 63236 & 7.50967e-20 & 0.41132 & qwen & 7.50967e-20 & True & qwen \\
+entropy & more negative correctness correlation is better & 1.80314e-124 & internvl & llava & 655 & -0.260702 & 15376 & 1.7434e-80 & -0.856861 & llava & 3.48681e-80 & True & llava \\
+ece & lower calibration error is better & 3.70829e-177 & qwen & internvl & 800 & 0.284452 & 656 & 1.62021e-131 & 0.995905 & qwen & 4.86063e-131 & True & qwen \\
+ece & lower calibration error is better & 3.70829e-177 & qwen & llava & 800 & 0.0689691 & 105071 & 3.39907e-17 & 0.344126 & qwen & 3.39907e-17 & True & qwen \\
+ece & lower calibration error is better & 3.70829e-177 & internvl & llava & 800 & -0.242644 & 25199 & 1.00978e-94 & -0.842703 & llava & 2.01956e-94 & True & llava \\
+mce & lower calibration error is better & 5.40238e-51 & qwen & internvl & 800 & 0.180836 & 58192 & 7.04432e-55 & 0.636754 & qwen & 2.11329e-54 & True & qwen \\
+mce & lower calibration error is better & 5.40238e-51 & qwen & llava & 800 & 0.0976646 & 72253 & 3.01814e-41 & 0.548983 & qwen & 6.03628e-41 & True & qwen \\
+mce & lower calibration error is better & 5.40238e-51 & internvl & llava & 800 & -0.0383079 & 149353 & 0.0971065 & -0.0677091 & llava & 0.0971065 & False & No difference \\
+\bottomrule
+\end{tabular}
+\end{table}
