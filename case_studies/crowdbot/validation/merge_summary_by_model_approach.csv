@@ -1,0 +1,7 @@
+model,approach,clean_files,rows_per_file,source_files,recovered_rows,unrecoverable_rows,label_probability_disagreements
+internvl,appfr,16,8801,112,20,0,21
+internvl,appod,16,8801,112,18612,0,5086
+llava,appfr,16,8801,112,0,0,0
+llava,appod,16,8801,112,0,0,0
+qwen,appfr,16,8801,112,0,0,0
+qwen,appod,16,8801,112,0,0,0

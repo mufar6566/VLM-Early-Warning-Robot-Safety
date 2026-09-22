@@ -1,0 +1,16 @@
+\begin{table}[tbp]
+\caption{RQ2-C complete-case counts by metric.}
+\label{tab:rq2c-dataset-summary}
+\begin{tabular}{llrrrrrr}
+\toprule
+metric & direction & possible\_configurations & complete\_configurations & excluded\_configurations & qwen\_valid\_values & internvl\_valid\_values & llava\_valid\_values \\
+\midrule
+msp & higher positive correctness correlation is better & 800 & 655 & 145 & 800 & 655 & 800 \\
+pcs & higher positive correctness correlation is better & 800 & 655 & 145 & 800 & 655 & 800 \\
+deep\_gini & more negative correctness correlation is better & 800 & 655 & 145 & 800 & 655 & 800 \\
+entropy & more negative correctness correlation is better & 800 & 655 & 145 & 800 & 655 & 800 \\
+ece & lower calibration error is better & 800 & 800 & 0 & 800 & 800 & 800 \\
+mce & lower calibration error is better & 800 & 800 & 0 & 800 & 800 & 800 \\
+\bottomrule
+\end{tabular}
+\end{table}

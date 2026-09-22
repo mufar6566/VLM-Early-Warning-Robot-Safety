@@ -1,0 +1,22 @@
+table,csv,latex,format
+rq3_accuracy_friedman,results/rq3/rq3_accuracy_friedman.csv,results/rq3/latex/rq3_accuracy_friedman.tex,CSV + LaTeX
+rq3_accuracy_history_profiles,results/rq3/rq3_accuracy_history_profiles.csv,results/rq3/latex/rq3_accuracy_history_profiles.tex,CSV + LaTeX
+rq3_accuracy_pairwise_holm_significant,results/rq3/rq3_accuracy_pairwise_holm_significant.csv,results/rq3/latex/rq3_accuracy_pairwise_holm_significant.tex,CSV + LaTeX
+rq3_accuracy_pairwise_wilcoxon,results/rq3/rq3_accuracy_pairwise_wilcoxon.csv,results/rq3/latex/rq3_accuracy_pairwise_wilcoxon.tex,CSV + LaTeX
+rq3_accuracy_significant_history_wins,results/rq3/rq3_accuracy_significant_history_wins.csv,results/rq3/latex/rq3_accuracy_significant_history_wins.tex,CSV + LaTeX
+rq3_accuracy_summary,results/rq3/rq3_accuracy_summary.csv,results/rq3/latex/rq3_accuracy_summary.tex,CSV + LaTeX
+rq3_accuracy_summary_detailed,results/rq3/rq3_accuracy_summary_detailed.csv,results/rq3/latex/rq3_accuracy_summary_detailed.tex,CSV + LaTeX
+rq3_all_significant_history_wins,results/rq3/rq3_all_significant_history_wins.csv,results/rq3/latex/rq3_all_significant_history_wins.tex,CSV + LaTeX
+rq3_bag_metrics,results/rq3/rq3_bag_metrics.csv,results/rq3/latex/rq3_bag_metrics.tex,CSV + LaTeX
+rq3_clean_validation,results/rq3/rq3_clean_validation.csv,results/rq3/latex/rq3_clean_validation.tex,CSV + LaTeX
+rq3_combined_summary,results/rq3/rq3_combined_summary.csv,results/rq3/latex/rq3_combined_summary.tex,CSV + LaTeX
+rq3_combined_summary_detailed,results/rq3/rq3_combined_summary_detailed.csv,results/rq3/latex/rq3_combined_summary_detailed.tex,CSV + LaTeX
+rq3_macro_f1_friedman,results/rq3/rq3_macro_f1_friedman.csv,results/rq3/latex/rq3_macro_f1_friedman.tex,CSV + LaTeX
+rq3_macro_f1_history_profiles,results/rq3/rq3_macro_f1_history_profiles.csv,results/rq3/latex/rq3_macro_f1_history_profiles.tex,CSV + LaTeX
+rq3_macro_f1_pairwise_holm_significant,results/rq3/rq3_macro_f1_pairwise_holm_significant.csv,results/rq3/latex/rq3_macro_f1_pairwise_holm_significant.tex,CSV + LaTeX
+rq3_macro_f1_pairwise_wilcoxon,results/rq3/rq3_macro_f1_pairwise_wilcoxon.csv,results/rq3/latex/rq3_macro_f1_pairwise_wilcoxon.tex,CSV + LaTeX
+rq3_macro_f1_significant_history_wins,results/rq3/rq3_macro_f1_significant_history_wins.csv,results/rq3/latex/rq3_macro_f1_significant_history_wins.tex,CSV + LaTeX
+rq3_macro_f1_summary,results/rq3/rq3_macro_f1_summary.csv,results/rq3/latex/rq3_macro_f1_summary.tex,CSV + LaTeX
+rq3_macro_f1_summary_detailed,results/rq3/rq3_macro_f1_summary_detailed.csv,results/rq3/latex/rq3_macro_f1_summary_detailed.tex,CSV + LaTeX
+rq3_output_manifest,results/rq3/rq3_output_manifest.csv,results/rq3/latex/rq3_output_manifest.tex,CSV + LaTeX
+rq3_pooled_metrics,results/rq3/rq3_pooled_metrics.csv,results/rq3/latex/rq3_pooled_metrics.tex,CSV + LaTeX

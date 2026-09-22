@@ -1,0 +1,16 @@
+\begin{table}[tbp]
+\caption{Detailed Accuracy summary.}
+\label{tab:rq3-accuracy-summary-detailed}
+\begin{tabular}{lllrrrrrlrrrrlrlllll}
+\toprule
+metric & model & approach & bags & histories & friedman\_chi2 & raw\_p & holm\_p & holm\_p\_report & kendalls\_w & omnibus\_significant\_holm & pairwise\_tests\_performed & significant\_pairwise\_tests & significant\_pairs & histories\_with\_significant\_wins & strict\_significant\_winner & first\_better & second\_better & third\_better & all\_significant\_winning\_histories \\
+\midrule
+accuracy & qwen & appfr & 25 & 16 & 46.8317 & 3.91759e-05 & 3.91759e-05 & <0.001 & 0.124885 & True & 120 & 0 & 0/120 & 0 & — & — & — & — & — \\
+accuracy & qwen & appod & 25 & 16 & 105.041 & 1.43474e-15 & 7.17371e-15 & <0.001 & 0.280109 & True & 120 & 14 & 14/120 & 7 & — & H32 (4) & H30 (3) & H26, H28 (2 each) & H32 (4); H30 (3); H26, H28 (2 each); H06, H14, H24 (1 each) \\
+accuracy & internvl & appfr & 25 & 16 & 117.504 & 5.76579e-18 & 3.45947e-17 & <0.001 & 0.313343 & True & 120 & 53 & 53/120 & 7 & — & H02, H14, H16 (12 each) & H04 (11) & H06 (3) & H02, H14, H16 (12 each); H04 (11); H06 (3); H08 (2); H28 (1) \\
+accuracy & internvl & appod & 25 & 16 & 78.4607 & 1.33383e-10 & 5.3353e-10 & <0.001 & 0.209229 & True & 120 & 26 & 26/120 & 11 & — & H14 (5) & H02, H22 (4 each) & H30 (3) & H14 (5); H02, H22 (4 each); H30 (3); H04, H16, H24 (2 each); H10, H12, H18, H20 (1 each) \\
+accuracy & llava & appfr & 25 & 16 & 67.2024 & 1.40025e-08 & 4.20076e-08 & <0.001 & 0.179206 & True & 120 & 4 & 4/120 & 2 & — & H18, H20 (2 each) & — & — & H18, H20 (2 each) \\
+accuracy & llava & appod & 25 & 16 & 49.2133 & 1.61764e-05 & 3.23527e-05 & <0.001 & 0.131236 & True & 120 & 1 & 1/120 & 1 & — & H16 (1) & — & — & H16 (1) \\
+\bottomrule
+\end{tabular}
+\end{table}

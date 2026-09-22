@@ -1,0 +1,18 @@
+table,csv,latex,format
+rq2_output_manifest,results/rq2/rq2_output_manifest.csv,results/rq2/latex/rq2_output_manifest.tex,CSV + LaTeX
+rq2a_expected_pattern_appfr,results/rq2/rq2a_expected_pattern_appfr.csv,results/rq2/latex/rq2a_expected_pattern_appfr.tex,CSV + LaTeX
+rq2a_expected_pattern_appod,results/rq2/rq2a_expected_pattern_appod.csv,results/rq2/latex/rq2a_expected_pattern_appod.tex,CSV + LaTeX
+rq2a_expected_pattern_summary_by_score,results/rq2/rq2a_expected_pattern_summary_by_score.csv,results/rq2/latex/rq2a_expected_pattern_summary_by_score.tex,CSV + LaTeX
+rq2a_expected_pattern_summary_overall,results/rq2/rq2a_expected_pattern_summary_overall.csv,results/rq2/latex/rq2a_expected_pattern_summary_overall.tex,CSV + LaTeX
+rq2a_expected_pattern_tests,results/rq2/rq2a_expected_pattern_tests.csv,results/rq2/latex/rq2a_expected_pattern_tests.tex,CSV + LaTeX
+rq2b_model_friedman,results/rq2/rq2b_model_friedman.csv,results/rq2/latex/rq2b_model_friedman.tex,CSV + LaTeX
+rq2b_model_pairwise_wilcoxon,results/rq2/rq2b_model_pairwise_wilcoxon.csv,results/rq2/latex/rq2b_model_pairwise_wilcoxon.tex,CSV + LaTeX
+rq2b_model_winner_summary,results/rq2/rq2b_model_winner_summary.csv,results/rq2/latex/rq2b_model_winner_summary.tex,CSV + LaTeX
+rq2b_model_winners_by_history,results/rq2/rq2b_model_winners_by_history.csv,results/rq2/latex/rq2b_model_winners_by_history.tex,CSV + LaTeX
+rq2b_significant_model_winners,results/rq2/rq2b_significant_model_winners.csv,results/rq2/latex/rq2b_significant_model_winners.tex,CSV + LaTeX
+rq2c_dataset_summary,results/rq2/rq2c_dataset_summary.csv,results/rq2/latex/rq2c_dataset_summary.tex,CSV + LaTeX
+rq2c_final_metric_decisions,results/rq2/rq2c_final_metric_decisions.csv,results/rq2/latex/rq2c_final_metric_decisions.tex,CSV + LaTeX
+rq2c_global_friedman,results/rq2/rq2c_global_friedman.csv,results/rq2/latex/rq2c_global_friedman.tex,CSV + LaTeX
+rq2c_global_pairwise_wilcoxon,results/rq2/rq2c_global_pairwise_wilcoxon.csv,results/rq2/latex/rq2c_global_pairwise_wilcoxon.tex,CSV + LaTeX
+rq2c_matched_values,results/rq2/rq2c_matched_values.csv,results/rq2/latex/rq2c_matched_values.tex,CSV + LaTeX
+rq2c_model_pairwise_summary,results/rq2/rq2c_model_pairwise_summary.csv,results/rq2/latex/rq2c_model_pairwise_summary.tex,CSV + LaTeX

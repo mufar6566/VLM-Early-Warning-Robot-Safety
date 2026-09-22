@@ -1,0 +1,24 @@
+metric,approach,unique_winner,number_of_histories
+deep_gini,appfr,No unique winner,9
+deep_gini,appfr,qwen,7
+deep_gini,appod,No unique winner,4
+deep_gini,appod,qwen,12
+ece,appfr,No unique winner,3
+ece,appfr,qwen,13
+ece,appod,No unique winner,16
+entropy,appfr,No unique winner,13
+entropy,appfr,qwen,3
+entropy,appod,No unique winner,5
+entropy,appod,qwen,11
+mce,appfr,No unique winner,15
+mce,appfr,qwen,1
+mce,appod,No unique winner,8
+mce,appod,qwen,8
+msp,appfr,No unique winner,10
+msp,appfr,qwen,6
+msp,appod,No unique winner,4
+msp,appod,qwen,12
+pcs,appfr,No unique winner,9
+pcs,appfr,qwen,7
+pcs,appod,No unique winner,5
+pcs,appod,qwen,11

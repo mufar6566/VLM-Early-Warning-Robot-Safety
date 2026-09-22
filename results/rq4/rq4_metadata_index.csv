@@ -1,0 +1,4 @@
+case_study,metadata_file,rows,bags
+huron,case_studies/huron/metadata/rq4_frame_metadata.csv,16862,15
+pal,case_studies/pal/metadata/rq4_frame_metadata.csv,9249,3
+crowdbot,case_studies/crowdbot/metadata/rq4_frame_metadata.csv,8801,7

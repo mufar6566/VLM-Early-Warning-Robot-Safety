@@ -1,0 +1,7 @@
+metric,model,approach,bags,histories,friedman_chi2,raw_p,holm_p,holm_p_report,kendalls_w,omnibus_significant_holm,pairwise_tests_performed,significant_pairwise_tests,significant_pairs,histories_with_significant_wins,strict_significant_winner,first_better,second_better,third_better,all_significant_winning_histories
+macro_f1,qwen,appfr,25,16,22.12333003463628,0.1046106197663735,0.418442479065494,0.418,0.05899554675903008,False,0,0,Not performed,0,—,—,—,—,—
+macro_f1,qwen,appod,25,16,19.352955054854267,0.19818287740900564,0.5945486322270169,0.595,0.05160788014627805,False,0,0,Not performed,0,—,—,—,—,—
+macro_f1,internvl,appfr,25,16,143.62876254180614,4.417885401137908e-23,2.6507312406827446e-22,<0.001,0.3830100334448164,True,120,33,33/120,6,—,H02 (12),H14 (7),H06 (5),H02 (12); H14 (7); H06 (5); H04 (4); H16 (3); H08 (2)
+macro_f1,internvl,appod,25,16,82.97663881369911,1.9864618378240284e-11,9.932309189120143e-11,<0.001,0.22127103683653096,True,120,20,20/120,11,—,"H02, H04, H14, H16, H18, H20, H22, H24, H30 (2 each)","H10, H12 (1 each)",—,"H02, H04, H14, H16, H18, H20, H22, H24, H30 (2 each); H10, H12 (1 each)"
+macro_f1,llava,appfr,25,16,17.044330625220855,0.31622123136738234,0.624864928086918,0.625,0.04545154833392228,False,0,0,Not performed,0,—,—,—,—,—
+macro_f1,llava,appod,25,16,17.108284755343725,0.312432464043459,0.624864928086918,0.625,0.0456220926809166,False,0,0,Not performed,0,—,—,—,—,—
